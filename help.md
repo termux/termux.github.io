@@ -3,7 +3,9 @@ layout: page
 title: Termux help
 ---
 
-Welcome to the help pages for [Termux](http://termux.com), a terminal emulator and Linux environment for Android. Want to ask a question, report a bug or have an idea for a new package or feature? Join the [Google+ Termux Community](https://plus.google.com/communities/101692629528551299417) or reach out to [@termux on Twitter](https://twitter.com/termux).
+These are the help pages for [Termux](https://termux.com), a terminal emulator and Linux environment for Android.
+
+Want to ask a question, report a bug or have an idea for a new package or feature? Join the [Google+ Termux Community](https://plus.google.com/communities/101692629528551299417) or reach out to [@termux on Twitter](https://twitter.com/termux).
 
 - [User interface](user-interface.html)
 - [Using a touch keyboard](touch-keyboard.html)
