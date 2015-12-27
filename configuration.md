@@ -3,9 +3,9 @@ layout: page
 title: Terminal configuration
 ---
 
-The Termux terminal may be configured by creating the file `~/.config/termux/termux.properties`.
+The Termux terminal may be configured by creating the file `~/.config/termux/termux.properties`. This file uses a simple `key=value` property syntax and allow configuring the properties listed below.
 
-This file uses a simple `key=value` property syntax and allow configuring the following properties.
+After changing the properties file the changes will take effect either by executing `termux-reload-settings` (run `apt update && apt upgrade` to ensure that this tool is installed) or by restarting the Termux app (closing all sessions before starting it again).
 
 Handling the bell character
 ---------------------------

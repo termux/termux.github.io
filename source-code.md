@@ -7,7 +7,9 @@ The source code for Termux is released under the [GPLv3 license](http://www.gnu.
 
 - [termux-app](https://github.com/termux/termux-app) - The main Termux app containing terminal emulator code and initial installer.
 - [termux-packages](https://github.com/termux/termux-packages) - The build scripts and patches used to build packages. While the framework and original content are licensed under the GPLv3, the scripts and patches to build each package is licensed under the same license as the actual package (so the patches and scripts to build bash are licensed under the same license as bash, while the patches and scripts to build python are licensed under the same license as python, etc).
+- [termux-api](https://github.com/termux/termux-api) - The Termux:API add-on.
 - [termux-styling](https://github.com/termux/termux-styling) - The Termux:Styling add-on.
 - [termux-widget](https://github.com/termux/termux-widget) - The Termux:Widget add-on.
+- [termux.github.io](https://github.com/termux/termux.github.io) - These help pages.
 
 
