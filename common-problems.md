@@ -3,6 +3,10 @@ layout: page
 title: Common problems
 ---
 
+#### Unable to install package ...
+
+This error either means that the package is not available (use `apt list` or `apt search` to find available ones) or that the initial package list needs to be fetched (which is done with `apt update`).
+
 #### CANNOT LINK EXECUTABLE: cannot locate symbol "..." referenced by "..."
 
 This error probably means that you are trying to execute a system binary (in a folder like /system/bin/) instead of a Termux executable - check that by executing `which CMD`, which should result in a path under `/data/data/com.termux/files/usr/bin/` for a Termux binary, and a path under `/system/` for a system binary. Common binaries supplied on some devices are `curl`, `ssh`, `nano` and `vim`.

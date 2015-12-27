@@ -12,10 +12,11 @@ Want to ask a question, report a bug or have an idea for a new package or featur
 - [Using a touch keyboard](touch-keyboard.html)
 - [Using a hardware keyboard](hardware-keyboard.html)
 - [Package management](package-management.html)
-- [Configuration](configuration.html)
+- [Common packges](common-packages.html)
+- [Terminal configuration](configuration.html)
 - [Termux and Linux](linux.html)
-- [Using SSH](ssh.html)
 - [Common problems](common-problems.html)
+- [Using SSH](ssh.html)
 - [Add-ons](add-ons.html)
 
 #### For developers
