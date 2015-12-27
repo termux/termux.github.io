@@ -3,7 +3,7 @@ layout: page
 title: Terminal configuration
 ---
 
-The Termux terminal may be configured by creating the file `$HOME/.config/termux/termux.properties`.
+The Termux terminal may be configured by creating the file `~/.config/termux/termux.properties`.
 
 This file uses a simple `key=value` property syntax and allow configuring the following properties.
 
