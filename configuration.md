@@ -9,7 +9,7 @@ After changing the properties file the changes will take effect either by execut
 
 Handling the bell character
 ---------------------------
-By setting the `bell-character` property the behaviour when the terminal is tapped can be configured as follows:
+By setting the `bell-character` property the behaviour when the [bell character](https://en.wikipedia.org/wiki/Bell_character) is received can be configured as follows:
 
     # Vibrate device (default).
     bell-character=vibrate
