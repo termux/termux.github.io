@@ -14,6 +14,7 @@ Want to ask a question, report a bug or have an idea for a new package or featur
 - [Package management](package-management.html)
 - [Common packages](common-packages.html)
 - [Terminal configuration](configuration.html)
+- [Internal and external storage](storage.html)
 - [Termux and Linux](linux.html)
 - [Common problems](common-problems.html)
 - [Using SSH](ssh.html)
