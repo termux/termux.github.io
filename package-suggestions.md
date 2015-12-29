@@ -5,6 +5,9 @@ title: Package suggestions
 
 This page collects suggested packages with relevant information about them.
 
+Larger packages
+---------------
+
 - [Mosh](https://mosh.mit.edu/) is a remote terminal application that allows roaming, supports intermittent connectivity, and provides intelligent local echo and line editing of user keystrokes. Really interesting to get running. There exists a [disabled package which may be built and run](https://github.com/termux/termux-packages/blob/master/disabled-packages/mosh/build.sh) but which unfortunately [crashes with a locale-related error](https://github.com/termux/termux-packages/blob/master/disabled-packages/mosh/BROKEN.txt).
 
 - [Mono](http://www.mono-project.com/) is an open source implementation of Microsoft's .NET Framework.
@@ -25,4 +28,7 @@ This page collects suggested packages with relevant information about them.
 
 - [Avahi](http://www.avahi.org/) is a free zero-configuration networking (zeroconf) implementation, including a system for multicast DNS/DNS-SD service discovery.
 
+Smaller packages
+----------------
 
+- [get-flash-videos](https://github.com/monsieurvideo/get-flash-videos) is a perl program for downloading or playing videos from various Flash-based video hosting sites, without having to use the Flash player.
