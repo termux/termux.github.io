@@ -33,12 +33,12 @@ By setting the `tap-screen` property the behaviour when the terminal is tapped c
     # Ignore taps.
     tap-screen=ignore
 
-Handling the back button
-------------------------
-By setting the `back-button` property the behaviour when the the back button is pressed can be configured as follows:
+Handling the back key
+---------------------
+By setting the `back-key` property the behaviour when the the back key is pressed can be configured as follows:
 
     # Send the Escape key (default).
-    back-button=escape
+    back-key=escape
 
     # Hide keyboard or leave app.
-    back-button=back
+    back-key=back
