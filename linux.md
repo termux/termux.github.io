@@ -3,7 +3,7 @@ layout: page
 title: Termux and Linux
 ---
 
-The environment setup in Termux is similar to that of a modern Linux distribution. Howeer, running on Android implies several important differences:
+The environment setup in Termux is similar to that of a modern Linux distribution. However, running on Android implies several important differences:
 
 - Common folders such as /bin, /usr/, /var and /etc does not exist.
 - The Android system provides a basic non-standard file system hierarchy, where e.g. /system/bin contains some system binaries.
