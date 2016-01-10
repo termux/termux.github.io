@@ -28,6 +28,8 @@ Larger packages
 
 - [Avahi](http://www.avahi.org/) is a free zero-configuration networking (zeroconf) implementation, including a system for multicast DNS/DNS-SD service discovery.
 
+- [GHC](https://www.haskell.org/ghc/) is the Glasgow Haskell Compiler. See [the upcoming 8.x release](https://ghc.haskell.org/trac/ghc/wiki/Status/GHC-8.0.1) and [changing to llvm 3.7](https://ghc.haskell.org/trac/ghc/ticket/10953) there.
+
 Smaller packages
 ----------------
 
