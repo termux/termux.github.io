@@ -3,9 +3,9 @@ layout: page
 title: Termux help
 ---
 
-These are the help pages for [Termux](https://termux.com), a terminal emulator and Linux environment for Android.
+These are the help pages for [Termux](https://termux.com) - a terminal emulator and Linux environment for Android.
 
-Want to ask a question, report a bug or have an idea for a new package or feature? Join the [Google+ Termux Community](https://plus.google.com/communities/101692629528551299417) or reach out to [@termux on Twitter](https://twitter.com/termux).
+Want to discuss Termux or get help by others? Join the [Termux Community on Google+](https://plus.google.com/communities/101692629528551299417), the #termux IRC channel on freenode or tweet to [@termux on Twitter](https://twitter.com/termux).
 
 #### For users
 - [User interface](user-interface.html)
