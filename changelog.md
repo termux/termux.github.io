@@ -10,7 +10,6 @@ title: Changelog
 - Disable the pull-out drawer at the left while selecting text.
 - Fix problem with selecting snippets of text with wide unicode characters at start or end of selection.
 - Remove the "tap-screen" configuration option for the more common show keyboard behaviour when tapping the terminal.
-- Do no longer map the back key to escape by default (it's still possible to do by configuration).
 - Add new hardware keyboard shortcut Ctrl+Shift+K for toggling soft keyboard visibility.
 - Long pressing on the New session button to create a named session no longer uses an intermediate dialog.
 - Paste text on when pressing the middle mouse button on a hardware mouse.
