@@ -1,5 +1,6 @@
 Termux.com
 ==========
+[![Join the chat at https://gitter.im/termux/termux](https://badges.gitter.im/termux/termux.svg)](https://gitter.im/termux/termux)
 
 This is the source repository for [termux.com](https://termux.com).
 
