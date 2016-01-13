@@ -20,19 +20,6 @@ By setting the `bell-character` property the behaviour when the [bell character]
     # Ignore bell character.
     bell-character=ignore
 
-Handling tapping on the terminal
---------------------------------
-By setting the `tap-screen` property the behaviour when the terminal is tapped can be configured as follows:
-
-    # Toggle keyboard visibility.
-    tap-screen=toggle-keyboard
-
-    # Show the context menu.
-    tap-screen=show-menu
-
-    # Ignore taps.
-    tap-screen=ignore
-
 Handling the back key
 ---------------------
 By setting the `back-key` property the behaviour when the the back key is pressed can be configured as follows:
