@@ -18,6 +18,7 @@ Want to discuss Termux or get help by others? Join the [Termux Community on Goog
 - [Termux and Linux](linux.html)
 - [Common problems](common-problems.html)
 - [Using SSH](ssh.html)
+- [Changelog](changelog.html)
 - [Add-ons](add-ons.html)
 
 #### For developers
