@@ -33,4 +33,6 @@ Larger packages
 Smaller packages
 ----------------
 
+- [mitmproxy](https://mitmproxy.org/) is interactive console program that allows traffic flows to be intercepted, inspected, modified and replayed.
+
 - [get-flash-videos](https://github.com/monsieurvideo/get-flash-videos) is a perl program for downloading or playing videos from various Flash-based video hosting sites, without having to use the Flash player.
