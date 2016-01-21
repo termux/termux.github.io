@@ -24,8 +24,8 @@ Handling the back key
 ---------------------
 By setting the `back-key` property the behaviour when the the back key is pressed can be configured as follows:
 
-    # Send the Escape key (default).
+    # Send the Escape key.
     back-key=escape
 
-    # Hide keyboard or leave app.
+    # Hide keyboard or leave app (default).
     back-key=back

@@ -3,6 +3,11 @@ layout: page
 title: Changelog
 ---
 
+# Termux v0.27 (2016-01-21)
+- Fix edge cases in terminal emulation and UTF-8 error handling
+- The Back key now works in normal system mode by default - hiding the keyboard if visible or leaving the app. See [https://termux.com/configuration.html](https://termux.com/configur
+ation.html) for how to configure the Back key to send the Escape key, the previous default value.
+
 # Termux v0.26 (2016-01-13)
 - Make text selection quicker by selecting text directly on long press instead of going through menus.
 - Add text grip bars to text selection like in normal system text components.
