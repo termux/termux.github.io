@@ -36,3 +36,7 @@ Smaller packages
 - [mitmproxy](https://mitmproxy.org/) is interactive console program that allows traffic flows to be intercepted, inspected, modified and replayed.
 
 - [get-flash-videos](https://github.com/monsieurvideo/get-flash-videos) is a perl program for downloading or playing videos from various Flash-based video hosting sites, without having to use the Flash player.
+
+- [Duplicity](http://duplicity.nongnu.org/) backs directories by producing encrypted tar-format volumes and uploading them to a remote or local file server. Will need required python packages (with native bindings).
+
+- [Unison](https://www.cis.upenn.edu/~bcpierce/unison/) is a file synchronization tool. Written in OCaml.
