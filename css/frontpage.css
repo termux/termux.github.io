@@ -18,7 +18,7 @@ img.phone:first-of-type { margin-top: 3em; }
 }
 
 .google-play { display: block; width: 50%; float: right; margin-top: 0; }
-.fdroid-top { display: block; width: 50%; float: left; margin-top: 0; }
+.fdroid { display: block; width: 50%; float: left; margin-top: 0; }
 
 .fade-out { opacity: 0; transition: opacity 1s; }
 .fade-in { opacity: 1; transition: opacity 1s; }
