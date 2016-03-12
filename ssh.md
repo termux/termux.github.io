@@ -21,4 +21,6 @@ The `sshd` server is included in the `openssh` package and allows you to connect
 
 Start the server by executing `sshd` (which will start it on the default port 8022) and run `logcat -s 'syslog:*'` to view the log output from the server process. Execute `pkill sshd` to stop the server.
 
+Since Termux is a single-user system you may connect as any user - regardless of your specified username you will login as the only Termux user available.
+
 The Termux `sshd` binary does not support password logins, so a key needs to be authorized in `~/.ssh/authorized_keys` before connecting. Use `ssh-keygen` to generate a new one if desired.
