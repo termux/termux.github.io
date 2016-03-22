@@ -3,6 +3,27 @@ layout: page
 title: Changelog
 ---
 
+# Termux v0.31 (2016-03-22)
+- Termux can now receive files shared from other apps. Files are saved into `~/downloads/` and it's possible to open this folder or editing a file directly when receiving it. Editing is done through a `~/bin/termux-file-editor` program which will be called with the newly received file as only argument.
+- Termux can now receive URL:s shared from other apps, which is done by calling a script `~/bin/termux-url-opener` with the shared URL as only argument.
+- Start using 64-bit arm packages for capable devices. Up until now Termux used 32-bit arm binaries even on 64-bit devices. This change will affect only new installations - existing users may reinstall the app to get a 64-bit environment (making sure to save relevant material from the home folder first).
+- Fix ASCII backspace to work across wrapped lines. This enables pil, the picolisp REPL, to work correctly with long lines.
+- Keep the `EXTERNAL_STORAGE` environment variable. This is required on some Samsung devices for `/system/bin/am` to work, which is used by Termux api commands and `termux-reload-settings`.
+- Remove `/system/bin` from the default `PATH` for normal sessions. This avoids confusion with system binaries being run by mistake instead of proper Termux ones. System tools such as am and pm still work and advanced users who need more system tools can add `/system/bin` back manually.
+- Add `/system/bin` to the `PATH` when launching failsafe sessions so that system tools can be used to repair a broken Termux environment.
+- Prevent crashes when trying to launch the styling plug-in under certain circumstances.
+
+# Termux v0.30 (2016-02-25)
+- Fix tabs to not overwrite cells. Problem identified by Thomas Rast.
+
+# Termux v0.29 (2016-02-14)
+- Ensure that terminal session changes that happened while the device was asleep is always visible directly when returning to the app.
+- Small improvement to first launch message to better explain how to reach the Help section.
+
+# Termux v0.28 (2016-02-09)
+- Do not spawn the terminal process until an initial terminal size is known. Fixes issues with certain programs expecting a correct terminal size directly, such as frotz when launched through a widget shortcut.
+
+
 # Termux v0.27 (2016-01-21)
 - Fix edge cases in terminal emulation and UTF-8 error handling
 - The Back key now works in normal system mode by default - hiding the keyboard if visible or leaving the app. See [https://termux.com/configuration.html](https://termux.com/configur
