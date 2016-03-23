@@ -30,6 +30,8 @@ Larger packages
 
 - [TeX Live](http://tug.org/texlive/) is an easy way to get up and running with the TeX document production system.
 
+- [Redis](http://redis.io/) is a in-memory data structure store used as database, cache and message broker.
+
 Smaller packages
 ----------------
 
