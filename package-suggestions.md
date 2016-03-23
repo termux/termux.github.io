@@ -42,3 +42,5 @@ Smaller packages
 - [Duplicity](http://duplicity.nongnu.org/) backs directories by producing encrypted tar-format volumes and uploading them to a remote or local file server. Will need required python packages (with native bindings).
 
 - [Unison](https://www.cis.upenn.edu/~bcpierce/unison/) is a file synchronization tool. Written in OCaml.
+
+- [GNU Stow](https://www.gnu.org/software/stow/) is a symlink farm manager which takes distinct packages of software and/or data located in separate directories on the filesystem, and makes them appear to be installed in the same place.
