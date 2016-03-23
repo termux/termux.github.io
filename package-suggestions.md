@@ -28,6 +28,8 @@ Larger packages
 
 - [GHC](https://www.haskell.org/ghc/) is the Glasgow Haskell Compiler. See [the upcoming 8.x release](https://ghc.haskell.org/trac/ghc/wiki/Status/GHC-8.0.1) and [changing to llvm 3.7](https://ghc.haskell.org/trac/ghc/ticket/10953) there.
 
+- [TeX Live](http://tug.org/texlive/) is an easy way to get up and running with the TeX document production system.
+
 Smaller packages
 ----------------
 
