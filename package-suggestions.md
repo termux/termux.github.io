@@ -16,8 +16,6 @@ Larger packages
     - [Stackoverflow post about cross compiling to Android x86](http://stackoverflow.com/questions/27438837/how-to-cross-compile-mono-for-x86-android)
 
 
-- [PRoot](http://proot.me/) is a user-space implementation of chroot, mount --bind, and binfmt_misc. A [starting point for a package exists](https://github.com/termux/termux-packages/tree/master/disabled-packages/proot). Would allow things such as `#!/bin/sh` as well as installing packages from other Linux distributions.
-
 - [GNAT](https://www.gnu.org/software/gnat/) is a free-software compiler for the Ada programming language which forms part of the GNU Compiler Collection. It supports all versions of the language, i.e. Ada 2012, Ada 2005, Ada 95 and Ada 83.
 
 - [Julia](http://julialang.org/) is a high-level, high-performance dynamic programming language for technical computing, with syntax that is familiar to users of other technical computing environments.
