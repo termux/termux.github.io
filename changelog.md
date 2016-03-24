@@ -3,6 +3,9 @@ layout: page
 title: Changelog
 ---
 
+# Termux v0.32 (2016-03-25)
+- Avoid matching too many intents for the file and url receiving feature introduced in v0.31.
+
 # Termux v0.31 (2016-03-22)
 - Termux can now receive files shared from other apps. Files are saved into `~/downloads/` and it's possible to open this folder or editing a file directly when receiving it. Editing is done through a `~/bin/termux-file-editor` program which will be called with the newly received file as only argument.
 - Termux can now receive URL:s shared from other apps, which is done by calling a script `~/bin/termux-url-opener` with the shared URL as only argument.
