@@ -44,3 +44,5 @@ Smaller packages
 - [Unison](https://www.cis.upenn.edu/~bcpierce/unison/) is a file synchronization tool. Written in OCaml.
 
 - [GNU Stow](https://www.gnu.org/software/stow/) is a symlink farm manager which takes distinct packages of software and/or data located in separate directories on the filesystem, and makes them appear to be installed in the same place.
+
+- [Profanity](http://profanity.im/) is a console based XMPP client inspired by Irssi. Features include multi-user chat and Off The Record message encryption. 
