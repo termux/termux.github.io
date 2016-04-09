@@ -8,8 +8,6 @@ This page collects suggested packages with relevant information about them.
 Larger packages
 ---------------
 
-- [Mosh](https://mosh.mit.edu/) is a remote terminal application that allows roaming, supports intermittent connectivity, and provides intelligent local echo and line editing of user keystrokes. Really interesting to get running. There exists a [disabled package which may be built and run](https://github.com/termux/termux-packages/blob/master/disabled-packages/mosh/build.sh) but which unfortunately [crashes with a locale-related error](https://github.com/termux/termux-packages/blob/master/disabled-packages/mosh/BROKEN.txt).
-
 - [Mono](http://www.mono-project.com/) is an open source implementation of Microsoft's .NET Framework.
     - [Mono on ARM information](http://www.mono-project.com/docs/about-mono/supported-platforms/arm/)
     - [Stackoverflow post about cross compiling to Android ARM](http://stackoverflow.com/questions/17941856/compile-mono-for-android-arm7)
