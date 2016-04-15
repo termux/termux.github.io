@@ -30,6 +30,8 @@ Larger packages
 
 - [Redis](http://redis.io/) is a in-memory data structure store used as database, cache and message broker.
 
+- [SBCL (Steel Bank Common Lisp)](http://www.sbcl.org/) - high performance Common Lisp compiler.
+
 Smaller packages
 ----------------
 
