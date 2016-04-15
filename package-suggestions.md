@@ -32,6 +32,8 @@ Larger packages
 
 - [SBCL (Steel Bank Common Lisp)](http://www.sbcl.org/) - high performance Common Lisp compiler.
 
+- [Alpine](http://patches.freeiz.com/alpine/release/) - mail client with a long history.
+
 Smaller packages
 ----------------
 
