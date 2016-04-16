@@ -3,6 +3,11 @@ layout: page
 title: Changelog
 ---
 
+# Termux v0.33 (2016-04-16)
+- Fix installation on devices with a 64-bit cpu but without a 64-bit runtime (such as the Galaxy S5 Neo).
+- Match less files when offering to view a file in Termux- now only text files are opened for viewing.
+- Do not force choice of browsers when opening an url from the context menu.
+
 # Termux v0.32 (2016-03-25)
 - Avoid matching too many intents for the file and url receiving feature introduced in v0.31.
 
