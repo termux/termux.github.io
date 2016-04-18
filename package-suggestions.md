@@ -34,6 +34,8 @@ Larger packages
 
 - [Alpine](http://patches.freeiz.com/alpine/release/) - mail client with a long history.
 
+- [MySQL](https://www.mysql.com/) or [MariaDB](https://mariadb.org/) - popular SQL database servers.
+
 Smaller packages
 ----------------
 
