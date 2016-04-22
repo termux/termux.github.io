@@ -3,6 +3,10 @@ layout: page
 title: Changelog
 ---
 
+# Termux v0.34 (2016-04-22)
+- Update to use the Storage Access Framework (SAF) on Android for sharing files to other apps. This streamlines the user experience when picking files from Termux for e.g. attaching to a mail and allows editing from other editor apps.
+- Change VolumeUp+x to send Alt+x for easier use of e.g. emacs.
+
 # Termux v0.33 (2016-04-16)
 - Fix installation on devices with a 64-bit cpu but without a 64-bit runtime (such as the Galaxy S5 Neo).
 - Match less files when offering to view a file in Termux- now only text files are opened for viewing.
