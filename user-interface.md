@@ -17,7 +17,7 @@ The **context menu** can be shown by long pressing anywhere on the terminal. It 
 - Styling the terminal by selecting a font and a color scheme.
 - Showing this help page.
 
-The **navigation drawer** is revealed by swiping from the left part of the screen. It has three elements:
+The **navigation drawer** is revealed by swiping inwards from the left part of the screen. It has three elements:
 
 - A list of sessions. Clicking on a session shows it in the terminal while long pressing allows you to specify a session title.
 - A button to toggle visibility of the touch keyboard.
