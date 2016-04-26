@@ -72,6 +72,20 @@ Download a resource using the system download manager.
   -t title        title for the download request notification
 ~~~~~~~~
 
+# termux-infrared-frequencies
+~~~~~~~~
+Usage: termux-infrared-frequencies
+Query the infrared transmitter's supported carrier frequencies.
+~~~~~~~~
+
+# termux-infrared-transmit
+~~~~~~~~
+Usage: termux-infrared-transmit -f frequency pattern
+Transmit an infrared pattern. The pattern is specified in comma-separated on/off intervals, such as '20,50,20,30'. Only patterns shorter than 2 seconds will be transmitted.
+
+  -f frequency  IR carrier frequency in Hertz
+~~~~~~~~
+
 # termux-location
 ~~~~~~~~
 usage: termux-notification [-p provider] [-r request]
@@ -124,6 +138,18 @@ Usage: termux-sms-send -n number[,number2,number3,...] [text]
 Send a SMS message to the specified recipient number(s). The text to send is either supplied as arguments or read from stdin if no arguments are given.
 
   -n number(s)  recipient number(s) - separate multiple numbers by commas
+~~~~~~~~
+
+# termux-telephony-cellinfo
+~~~~~~~~
+Usage: termux-telephony-cellinfo
+Get information about all observed cell information from all radios on the device including the primary and neighboring cells.
+~~~~~~~~
+
+# termux-telephony-deviceinfo
+~~~~~~~~
+Usage: termux-telephony-deviceinfo
+Get information about the telephony device.
 ~~~~~~~~
 
 # termux-toast
