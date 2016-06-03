@@ -31,3 +31,4 @@ Want to discuss Termux or get help by others? Visit the [Termux Google+ Communit
 #### Termux development
 - [Changelog](changelog.html)
 - [Source code](source-code.html)
+- [Donate](donate.html)
