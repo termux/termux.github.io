@@ -3,6 +3,20 @@ layout: page
 title: Changelog
 ---
 
+# Termux v0.35 (PREVIEW - for feedback)
+- Read properties from `$HOME/.termux/termux.properties` instead of `$HOME/.config/termux/termux.properties` (the old location will continue to work for now as a fallback).
+- Compatibility with more input methods such as handwriting.
+- New extra keys (`Escape`, `Ctrl`, `Alt` and some more) can now be shown above the normal keyboard. This is toggled with `VolumeUp+q` or by swiping in the drawer from the left and long pressing on the `KEYBOARD` button.
+- By swiping the extra keys view to the left a text input is shown, allowing text input with normal text prediction to work. Useful when writing longer texts.
+- Change how terminal sessions are detected as completed. Previously every opened file descriptor to the terminal had to be closed, now it is enough with the first session process (normally the shell) to exit. This is what most terminal emulators does and avoids hanging sessions.
+- Change the `Hangup` context menu entry (shown when long pressing on the terminal and selecting `MORE...`), which sent `SIGHUP`, to `Kill process ($PID)`, which now sends `SIGKILL`. This ensures that the process is always killed. The menu entry can also be used to learn the PID of the current session.
+- Change the minimum number of rows in the terminal from 8 to 4. This avoids having terminal output hidden by the keyboard on small displays or on large font sizes.
+- Make it possible to assign some limited keyboard shortcuts (note that `Ctrl` is a required part of the shortcuts for now) by specifying the following in `$HOME/.termux/termux.properties`:
+    - `shortcut.create-session = Ctrl + <something>`
+    - `shortcut.previous-session = Ctrl + <something>`
+    - `shortcut.next-session = Ctrl + <something>`
+    - `shortcut.rename-session = Ctrl + <something>`
+
 # Termux v0.34 (2016-04-22)
 - Update to use the Storage Access Framework (SAF) on Android for sharing files to other apps. This streamlines the user experience when picking files from Termux for e.g. attaching to a mail and allows editing from other editor apps.
 - Change VolumeUp+x to send Alt+x for easier use of e.g. emacs.
