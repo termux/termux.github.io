@@ -11,7 +11,7 @@ title: Changelog
 - Change how terminal sessions are detected as completed. Previously every opened file descriptor to the terminal had to be closed, now it is enough with the first session process (normally the shell) to exit. This is what most terminal emulators does and avoids hanging sessions.
 - Change the `Hangup` context menu entry (shown when long pressing on the terminal and selecting `MORE...`), which sent `SIGHUP`, to `Kill process ($PID)`, which now sends `SIGKILL`. This ensures that the process is always killed. The menu entry can also be used to learn the PID of the current session.
 - Change the minimum number of rows in the terminal from 8 to 4. This avoids having terminal output hidden by the keyboard on small displays or on large font sizes.
-- Make it possible to assign some limited keyboard shortcuts (note that `Ctrl` is a required part of the shortcuts for now) by specifying the following in `$HOME/.termux/termux.properties`:
+- Make it possible to assign some limited keyboard shortcuts (note that `Ctrl` is a required part of the shortcuts for now) by specifying the following in `$HOME/.termux/termux.properties` (run `termux-reload-settings` to apply the shortcuts without restarting the app):
     - `shortcut.create-session = Ctrl + <something>`
     - `shortcut.previous-session = Ctrl + <something>`
     - `shortcut.next-session = Ctrl + <something>`
