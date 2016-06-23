@@ -6,6 +6,7 @@ title: Changelog
 # Termux v0.35 (PREVIEW - for feedback)
 - Read properties from `$HOME/.termux/termux.properties` instead of `$HOME/.config/termux/termux.properties` (the old location will continue to work for now as a fallback).
 - Compatibility with more input methods such as handwriting.
+- Support native x86-64 packages instead of the previous fallback to i686 packages.
 - New extra keys (`Escape`, `Ctrl`, `Alt` and some more) can now be shown above the normal keyboard. This is toggled with `VolumeUp+q` or by swiping in the drawer from the left and long pressing on the `KEYBOARD` button.
 - By swiping the extra keys view to the left a text input is shown, allowing text input with normal text prediction to work. Useful when writing longer texts.
 - Change how terminal sessions are detected as completed. Previously every opened file descriptor to the terminal had to be closed, now it is enough with the first session process (normally the shell) to exit. This is what most terminal emulators does and avoids hanging sessions.
