@@ -3,15 +3,17 @@ layout: page
 title: Changelog
 ---
 
-# Termux v0.35 (PREVIEW - for feedback)
+# Termux v0.35
 - Read properties from `$HOME/.termux/termux.properties` instead of `$HOME/.config/termux/termux.properties` (the old location will continue to work for now as a fallback).
 - Compatibility with more input methods such as handwriting.
 - Support native x86-64 packages instead of the previous fallback to i686 packages.
-- New extra keys (`Escape`, `Ctrl`, `Alt` and some more) can now be shown above the normal keyboard. This is toggled with `VolumeUp+q` or by swiping in the drawer from the left and long pressing on the `KEYBOARD` button.
+- New extra keys (`Escape`, `Ctrl`, `Alt` and some more) can now be shown above the normal keyboard. This is toggled with `VolumeUp+q` or by swiping in the drawer from the left and long pressing on the `KEYBOARD` button. There are some layout issues (such as for smaller screens) - this will be fixed in an update.
 - By swiping the extra keys view to the left a text input is shown, allowing text input with normal text prediction to work. Useful when writing longer texts.
 - Change how terminal sessions are detected as completed. Previously every opened file descriptor to the terminal had to be closed, now it is enough with the first session process (normally the shell) to exit. This is what most terminal emulators does and avoids hanging sessions.
 - Change the `Hangup` context menu entry (shown when long pressing on the terminal and selecting `MORE...`), which sent `SIGHUP`, to `Kill process ($PID)`, which now sends `SIGKILL`. This ensures that the process is always killed. The menu entry can also be used to learn the PID of the current session.
 - Change the minimum number of rows in the terminal from 8 to 4. This avoids having terminal output hidden by the keyboard on small displays or on large font sizes.
+- Fix terminal to recognize backspace in combination with `Alt` and `Ctrl`.
+- Fix terminal to recognize `Ctrl+/`.
 - Make it possible to assign some limited keyboard shortcuts (note that `Ctrl` is a required part of the shortcuts for now) by specifying the following in `$HOME/.termux/termux.properties` (run `termux-reload-settings` to apply the shortcuts without restarting the app):
     - `shortcut.create-session = Ctrl + <something>`
     - `shortcut.previous-session = Ctrl + <something>`
