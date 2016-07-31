@@ -3,7 +3,7 @@ layout: page
 title: Changelog
 ---
 
-# Termux v0.35
+# Termux v0.35 (2016-08-01)
 - Read properties from `$HOME/.termux/termux.properties` instead of `$HOME/.config/termux/termux.properties` (the old location will continue to work for now as a fallback).
 - Compatibility with more input methods such as handwriting.
 - Support native x86-64 packages instead of the previous fallback to i686 packages.
