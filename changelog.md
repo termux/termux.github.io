@@ -3,6 +3,12 @@ layout: page
 title: Changelog
 ---
 
+# Termux:Styling v0.12 (2016-08-01)
+- Add all base16 256 color schemes.
+- Add Dracula color theme.
+- Don't crash on wonky permissions and respect symlinks.
+- Fix incompatibility with Android N (popup dialogs were blank).
+
 # Termux v0.35 (2016-08-01)
 - Read properties from `$HOME/.termux/termux.properties` instead of `$HOME/.config/termux/termux.properties` (the old location will continue to work for now as a fallback).
 - Compatibility with more input methods such as handwriting.
@@ -52,11 +58,9 @@ title: Changelog
 # Termux v0.28 (2016-02-09)
 - Do not spawn the terminal process until an initial terminal size is known. Fixes issues with certain programs expecting a correct terminal size directly, such as frotz when launched through a widget shortcut.
 
-
 # Termux v0.27 (2016-01-21)
 - Fix edge cases in terminal emulation and UTF-8 error handling
-- The Back key now works in normal system mode by default - hiding the keyboard if visible or leaving the app. See [https://termux.com/configuration.html](https://termux.com/configur
-ation.html) for how to configure the Back key to send the Escape key, the previous default value.
+- The Back key now works in normal system mode by default - hiding the keyboard if visible or leaving the app. See [https://termux.com/configuration.html](https://termux.com/configuration.html) for how to configure the Back key to send the Escape key, the previous default value.
 
 # Termux v0.26 (2016-01-13)
 - Make text selection quicker by selecting text directly on long press instead of going through menus.
