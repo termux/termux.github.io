@@ -3,6 +3,9 @@ layout: page
 title: Changelog
 ---
 
+# Termux v0.37 (2016-08-01)
+- Fix regression in v0.35 where Enter to close did not work with some keyboards.
+
 # Termux:Styling v0.12 (2016-08-01)
 - Add all base16 256 color schemes.
 - Add Dracula color theme.
