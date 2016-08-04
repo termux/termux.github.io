@@ -3,6 +3,11 @@ layout: page
 title: Changelog
 ---
 
+# Termux v0.38 (2016-08-05)
+- Fix issue (introduced in v0.36) with Samsung and some other keyboards entering word mode (no instant echo of characters).
+- Allow pressing Enter in the predictive text area to remove a finished session.
+- Implement Unicode 9 for character widths in the terminal emulation which avoids rendering emojis too narrow. Be sure to have updated packages (run apt update && apt upgrade) for this feature to work since the feature also requires support from terminal programs.
+
 # Termux v0.37 (2016-08-01)
 - Fix regression in v0.35 where Enter to close did not work with some keyboards.
 
