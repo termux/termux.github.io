@@ -3,6 +3,10 @@ layout: page
 title: Changelog
 ---
 
+# Termux v0.39 (2016-08-08)
+- Fix the extra keys row to show up on Android 5 devices.
+- Ensure that packages are installed matching the preferred system ABI.
+
 # Termux v0.38 (2016-08-05)
 - Fix issue (introduced in v0.36) with Samsung and some other keyboards entering word mode (no instant echo of characters).
 - Allow pressing Enter in the predictive text area to remove a finished session.
