@@ -3,6 +3,14 @@ layout: page
 title: Changelog
 ---
 
+# Termux v0.41 (2016-09-05)
+• Fix handling of 0 and . on the numeric keypad.
+
+# Termux v0.40 (2016-09-04)
+- Support true (24-bit) color in the terminal.
+- Recognise the Home key on external keyboards.
+- Fix crash on VolumeUp+H.
+
 # Termux v0.39 (2016-08-08)
 - Fix the extra keys row to show up on Android 5 devices.
 - Ensure that packages are installed matching the preferred system ABI.
