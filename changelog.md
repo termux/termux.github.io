@@ -3,8 +3,12 @@ layout: page
 title: Changelog
 ---
 
+# Termux:API v0.11 (2016-09-06)
+- Added optional region and variant params to termux-tts-speak.
+- Fixed invalid JSON response by termux-telephony-deviceinfo.
+
 # Termux v0.41 (2016-09-05)
-• Fix handling of 0 and . on the numeric keypad.
+- Fix handling of 0 and . on the numeric keypad.
 
 # Termux v0.40 (2016-09-04)
 - Support true (24-bit) color in the terminal.
