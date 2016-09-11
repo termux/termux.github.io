@@ -3,6 +3,11 @@ layout: page
 title: Changelog
 ---
 
+# Termux:Styling v0.13 (2016-09-11)
+- Update all fonts to their latest versions.
+- Patch so that all fonts have powerline symbols.
+- Add Fantasque font.
+
 # Termux:API v0.11 (2016-09-06)
 - Added optional region and variant params to termux-tts-speak.
 - Fixed invalid JSON response by termux-telephony-deviceinfo.
