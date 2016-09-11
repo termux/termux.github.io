@@ -5,7 +5,7 @@ title: Changelog
 
 # Termux:Styling v0.13 (2016-09-11)
 - Update all fonts to their latest versions.
-- Patch so that all fonts have powerline symbols.
+- All fonts are now patched to include powerline symbols.
 - Add Fantasque font.
 
 # Termux:API v0.11 (2016-09-06)
