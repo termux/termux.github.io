@@ -202,15 +202,30 @@ pre {
         }
     }
 }
-.preview-color{
-	float:left;
-	padding-top:12.5%;
-	width:12.5%;
+/*
+ * Color Previews
+ */
+.preview-color {
+  float: left;
+  padding-top: calc(100% / 8);
+  width: calc(100% / 8); 
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
+  box-sizing: border-box;
 }
-.preview-color-row{
-	overflow:auto;
-	width:100%;
+.preview-color-row {
+  overflow: auto;
+  width: 100%; }
+
+.preview-color-block {
+  max-width: 300px;
+  margin: 0 auto;
 }
-.preview-color-block{
-	margin-bottom:15px;
+.codeexample{
+  max-width: 300px;
+  margin:0 auto;
+	*{
+		font-size: 8px;
+		line-height:8px;
+	}
 }
