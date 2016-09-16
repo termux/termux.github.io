@@ -3,7 +3,7 @@ layout: page
 title: Using a hardware keyboard
 ---
 
-The following shortcuts are available when using Termux with a hardware (e.g. bluetooth) keyboard by combining them with Ctrl+Shift:
+The following shortcuts are available when using Termux with a hardware (e.g. bluetooth) keyboard by combining them with Ctrl+Alt:
 
 - 'C' → Create new session
 - 'R' → Rename current session

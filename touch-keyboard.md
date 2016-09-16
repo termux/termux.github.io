@@ -29,6 +29,7 @@ The Volume up key also serves as a special key to produce certain input:
 - Volume Up+S → Down arrow key
 - Volume Up+D → Right arrow key
 - Volume Up+L → &#124; (the pipe character)
+- Volume Up+H → ~ (the tilde character)
 - Volume Up+U → _ (underscore)
 - Volume Up+P → Page Up
 - Volume Up+N → Page Down
