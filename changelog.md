@@ -3,6 +3,10 @@ layout: page
 title: Changelog
 ---
 
+# Termux v0.42 (2016-09-16)
+- Change the keyboard shortcut sequence from Ctrl+Shift to Ctrl+Alt in order to work on more language layouts and devices (ChromeOS).
+- Change VolumeUp+H to send a tilde (~).
+
 # Termux:Styling v0.13 (2016-09-11)
 - Update all fonts to their latest versions.
 - All fonts are now patched to include powerline symbols.
