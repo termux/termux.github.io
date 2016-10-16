@@ -6,28 +6,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="Description" content="Terminal emulator and Linux environment for Android" />
     <title itemprop="name">Termux</title>
+    <style>
+	html { font-family: Roboto, sans-serif; height: 100%; margin: auto; padding: 0; color: rgb(190, 190, 190); background-color: black; }
+	.page { max-width: 820px; margin: auto; padding: 0 1em; }
+	body { margin-left: auto; margin-right: auto; margin-top: 0; padding: 0; width: 100%; }
+
+	h1 { font-size: 54px; margin: 42px 0; text-align: center;}
+	h1, h2 { line-height: 32px; color: white; }
+	.intro { text-align: center; color: rgb(153, 153, 153); }
+
+	p { font-size: 22px; line-height: 1.3em; }
+	.caption { text-align: center; margin-top: 11px; }
+	strong { color: white; font-weight: normal; }
+	.first { font-weight: bold; }
+
+	img { margin: 21px auto; max-width:100%; height:auto; display: block;}
+	img.phone:first-of-type { margin-top: 3em; }
+	@media only screen and (min-width: 500px) {
+		img.phone:first-of-type { margin-top: 0; margin-bottom: 0; margin-left: 1em; margin-right: 1em; float: right; }
+	}
+	.google-play { display: block; width: 100%; margin-top: 0; }
+
+	.fade-out { opacity: 0; transition: opacity 1s; }
+	.fade-in { opacity: 1; transition: opacity 1s; }
+
+	a, a:visited { color: white !important; }
+    </style>
     <link rel="canonical" href="https://termux.com" />
     <link href="//fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="css/frontpage.css" />
   </head>
   <body>
     <div class="page">
-      <h1>Termux</h1>
+     <h1>Termux</h1>
 
-      <a class="google-play" href="https://play.google.com/store/apps/details?id=com.termux">
-        <img alt="Android app on Google Play" src="files/app-on-play.png" width="172" height="60"/>
-      </a>
+     <p>Termux is a <strong>terminal emulator and Linux environment</strong> app for Android that
+     works directly with no rooting or setup required. A minimal base system is installed automatically
+     - additional packages are available using the apt package manager.</p>
 
-     <p>Termux is a <strong>terminal emulator and Linux environment</strong> bringing powerful terminal access to Android.</p>
+     <a class="google-play" href="https://play.google.com/store/apps/details?id=com.termux">
+       <img alt="Android app on Google Play" src="files/google-play-badge.png" width="215" height="83"/>
+     </a>
 
      <img class="phone" src="files/htop_framed.png" data-sliderimages="files/vim-main_framed.png,files/hello_framed.png,files/weechat-with-keyboard_framed.png" alt="" width="305" height="600"/>
 
-     <p><strong class="first">Ready to go.</strong> 
-     Termux works directly with no rooting or setup required. At first start a minimal base system
-     is installed automatically - you decide what to do next.</p>
-
      <p><strong class="first">Secure.</strong>
-     Access remote servers using the ssh client from OpenSSH. Termux combines powerful standard packages
+     Access remote servers using the ssh client from OpenSSH. Termux combines standard packages
      with accurate terminal emulation in a beautiful open source solution.</p>
 
      <p><strong class="first">Feature packed.</strong>
@@ -36,11 +60,11 @@
      your contact list on a remote server.</p>
 
      <p><strong class="first">Customizable.</strong>
-     Install what you want through the Apt package management system known from Debian
+     Install what you want through the APT package management system known from Debian
      and Ubuntu GNU/Linux. Why not start with installing git and syncing your dotfiles?</p>
 
      <p><strong class="first">Explorable.</strong>
-     Have you ever sat on a bus and thought about exactly which arguments tar accepts?
+     Have you ever sat on a bus and wondered exactly which arguments tar accepts?
      Packages available in Termux are the same as those on Mac and Linux - install man pages on your
      phone and read them in one session while experimenting with them in another.</p>
 
@@ -53,11 +77,11 @@
      keyboard shortcuts and has full mouse support.<p>
 
      <p><strong class="first">Tinkerable.</strong> 
-     Develop by compiling C files with clang or gcc and build your own projects
-     with makefiles or cmake. Both gdb and strace are available if you get stuck and need to debug.</p>
+     Develop by compiling C files with clang and build your own projects
+     with cmake and pkg-config. Both gdb and strace are available if you get stuck and need to debug.</p>
 
       <a class="google-play bottom" href="https://play.google.com/store/apps/details?id=com.termux">
-        <img alt="Android app on Google Play" src="files/app-on-play.png" width="172" height="60"/>
+        <img alt="Android app on Google Play" src="files/google-play-badge.png" width="215" height="83"/>
       </a>
 
     <p><a href="help.html">Read the help section online</a> to learn more.
