@@ -13,19 +13,17 @@
 
 	h1 { font-size: 54px; margin: 42px 0; text-align: center;}
 	h1, h2 { line-height: 32px; color: white; }
-	.intro { text-align: center; color: rgb(153, 153, 153); }
 
 	p { font-size: 22px; line-height: 1.3em; }
-	.caption { text-align: center; margin-top: 11px; }
 	strong { color: white; font-weight: normal; }
 	.first { font-weight: bold; }
 
-	img { margin: 21px auto; max-width:100%; height:auto; display: block;}
+	img { margin: 21px auto; max-width:100%; height:auto; }
 	img.phone:first-of-type { margin-top: 3em; }
 	@media only screen and (min-width: 500px) {
 		img.phone:first-of-type { margin-top: 0; margin-bottom: 0; margin-left: 1em; margin-right: 1em; float: right; }
 	}
-	.google-play { display: block; width: 100%; margin-top: 0; }
+	.badges { text-align: center; margin-top: 0; margin-left: auto; margin-right: auto; }
 
 	.fade-out { opacity: 0; transition: opacity 1s; }
 	.fade-in { opacity: 1; transition: opacity 1s; }
@@ -43,9 +41,11 @@
      works directly with no rooting or setup required. A minimal base system is installed automatically
      - additional packages are available using the apt package manager.</p>
 
-     <a class="google-play" href="https://play.google.com/store/apps/details?id=com.termux">
-       <img alt="Android app on Google Play" src="files/google-play-badge.png" width="215" height="83"/>
-     </a>
+     <div class="badges">
+       <a href="https://play.google.com/store/apps/details?id=com.termux">
+         <img alt="Get it on Google Play" src="files/google-play-badge.png" width="215" height="83"/></a>
+       <a href="https://f-droid.org/repository/browse/?fdid=com.termux">
+         <img alt="Get it on F-Droid" src="files/fdroid.png" width="215" height="83"/></a></div>
 
      <img class="phone" src="files/htop_framed.png" data-sliderimages="files/vim-main_framed.png,files/hello_framed.png,files/weechat-with-keyboard_framed.png" alt="" width="305" height="600"/>
 
@@ -79,9 +79,11 @@
      Develop by compiling C files with clang and build your own projects
      with cmake and pkg-config. Both gdb and strace are available if you get stuck and need to debug.</p>
 
-      <a class="google-play bottom" href="https://play.google.com/store/apps/details?id=com.termux">
-        <img alt="Android app on Google Play" src="files/google-play-badge.png" width="215" height="83"/>
-      </a>
+     <div class="badges">
+       <a href="https://play.google.com/store/apps/details?id=com.termux">
+         <img alt="Get it on Google Play" src="files/google-play-badge.png" width="215" height="83"/></a>
+       <a href="https://f-droid.org/repository/browse/?fdid=com.termux">
+         <img alt="Get it on F-Droid" src="files/fdroid.png" width="215" height="83"/></a></div>
 
     <p><a href="help.html">Read the help section online</a> to learn more.
     The help section is also available from inside Termux by long-pressing anywhere on the terminal.</p>
