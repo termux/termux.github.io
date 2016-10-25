@@ -3,6 +3,9 @@ layout: page
 title: Changelog
 ---
 
+# Termux:Widget v0.4 (2016-10-26)
+- Support nestled folders under `~/.shortcuts/`.
+
 # Termux v0.42 (2016-09-16)
 - Change the keyboard shortcut sequence from Ctrl+Shift to Ctrl+Alt in order to work on more language layouts and devices (ChromeOS).
 - Change VolumeUp+H to send a tilde (~).
