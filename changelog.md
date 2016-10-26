@@ -3,6 +3,9 @@ layout: page
 title: Changelog
 ---
 
+# Termux:Widget v0.5 (2016-10-26)
+- Fix Android 7 incompatibility with single shortcuts.
+
 # Termux:Widget v0.4 (2016-10-26)
 - Support nestled folders under `~/.shortcuts/`.
 
