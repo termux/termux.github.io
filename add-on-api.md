@@ -88,7 +88,7 @@ Transmit an infrared pattern. The pattern is specified in comma-separated on/off
 
 # termux-location
 ~~~~~~~~
-usage: termux-notification [-p provider] [-r request]
+usage: termux-location [-p provider] [-r request]
 Get the device location.
 
   -p provider  location provider [gps/network/passive] (default: gps)
