@@ -3,6 +3,11 @@ layout: page
 title: Changelog
 ---
 
+# Termux:Widget v0.6 (2016-11-20)
+- Add support for folders inside `~/.shortcuts/` when creating single shortcuts.
+- Tweak how nested folders are shown to save vertical space.
+- Add support for launching background tasks without a terminal: A script in a folder named `tasks` will now be executed in the background without starting a terminal. NOTE: This will require updating the main Termux app to v0.43, which will be released shortly.
+
 # Termux:Widget v0.5 (2016-10-26)
 - Fix Android 7 incompatibility with single shortcuts.
 
