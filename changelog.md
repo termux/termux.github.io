@@ -3,6 +3,17 @@ layout: page
 title: Changelog
 ---
 
+# Termux v0.44 (2016-12-26)
+- Add support for background tasks (use ~/.shortcuts/tasks/ with Termux:Widget or use the new Termux:Tasker add-on).
+- Support cursor shapes (underscore and ibeam).
+- Use the cursor colour from the theme (or set by escape sequences).
+- Handle Samsung keyboards with the "Auto check spelling" better (but the setting should still be disabled for best interoperability with the terminal).
+- Use a single wake lock instead of two.
+- Support new commands: termux-wake-lock and termux-wake-unlock (run 'apt update && apt upgrade' to have it).
+- Updated app icon.
+- Add support for a new session app launcher shortcut on Android 7.1.
+- Internal changes.
+
 # Termux:Widget v0.6 (2016-11-20)
 - Add support for folders inside `~/.shortcuts/` when creating single shortcuts.
 - Tweak how nested folders are shown to save vertical space.
