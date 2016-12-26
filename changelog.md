@@ -4,7 +4,7 @@ title: Changelog
 ---
 
 # Termux v0.44 (2016-12-26)
-- Add support for background tasks (use ~/.shortcuts/tasks/ with Termux:Widget or use the new Termux:Tasker add-on).
+- Add support for background tasks (use ~/.shortcuts/tasks/ with Termux:Widget or use the new Termux:Task add-on).
 - Support cursor shapes (underscore and ibeam).
 - Use the cursor colour from the theme (or set by escape sequences).
 - Handle Samsung keyboards with the "Auto check spelling" better (but the setting should still be disabled for best interoperability with the terminal).
