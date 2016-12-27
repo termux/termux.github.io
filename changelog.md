@@ -3,6 +3,9 @@ layout: page
 title: Changelog
 ---
 
+# Termux v0.45 (2016-12-27)
+- Fix regression in v0.44 which caused Termux to crash when launching a shortcut using Termux:Widget.
+
 # Termux v0.44 (2016-12-26)
 - Add support for background tasks (use ~/.shortcuts/tasks/ with Termux:Widget or use the new Termux:Task add-on).
 - Support cursor shapes (underscore and ibeam).
