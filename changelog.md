@@ -3,6 +3,13 @@ layout: page
 title: Changelog
 ---
 
+# Termux:Styling v0.15 (2016-12-29)
+- Add Wild Cherry color theme.
+- Update app icon.
+
+# Termux:Task v0.1 (2016-12-27)
+- Initial release.
+
 # Termux v0.45 (2016-12-27)
 - Fix regression in v0.44 which caused Termux to crash when launching a shortcut using Termux:Widget.
 
