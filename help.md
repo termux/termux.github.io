@@ -26,6 +26,7 @@ Want to discuss Termux or get help by others? Visit the [Termux Google+ Communit
 - [Termux:API](add-on-api.html)
 - [Termux:Float](add-on-float.html)
 - [Termux:Styling](add-on-styling.html)
+- [Termux:Task](add-on-task.html)
 - [Termux:Widget](add-on-widget.html)
 
 #### Termux development
