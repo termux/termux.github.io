@@ -3,6 +3,13 @@ layout: page
 title: Changelog
 ---
 
+# Termux:API v0.12 (2017-01-06)
+- For use with termux-api version 0.21 or later. Run `apt update && apt upgrade` to ensure that the latest packages are installed.
+- Run any command with a `-h` flag to learn more.
+- Support the new `termux-notification-remove` command to remove a notification.
+- Add several options to `termux-notification`.
+- Add new commands for wifi information: `termux-wifi-connectioninfo` and `termux-wifi-scaninfo`.
+
 # Termux:Styling v0.15 (2016-12-29)
 - Add Wild Cherry color theme.
 - Update app icon.
