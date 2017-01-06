@@ -3,6 +3,9 @@ layout: page
 title: Changelog
 ---
 
+# Termux:Styling v0.16 (2017-01-06)
+- Add monochrome `White on Black` and `Black on White` color schemes.
+
 # Termux:API v0.12 (2017-01-06)
 - For use with termux-api version 0.21 or later. Run `apt update && apt upgrade` to ensure that the latest packages are installed.
 - Run any command with a `-h` flag to learn more.
@@ -11,7 +14,7 @@ title: Changelog
 - Add new commands for wifi information: `termux-wifi-connectioninfo` and `termux-wifi-scaninfo`.
 
 # Termux:Styling v0.15 (2016-12-29)
-- Add Wild Cherry color theme.
+- Add Wild Cherry color scheme.
 - Update app icon.
 
 # Termux:Task v0.1 (2016-12-27)
@@ -23,7 +26,7 @@ title: Changelog
 # Termux v0.44 (2016-12-26)
 - Add support for background tasks (use ~/.shortcuts/tasks/ with Termux:Widget or use the new Termux:Task add-on).
 - Support cursor shapes (underscore and ibeam).
-- Use the cursor colour from the theme (or set by escape sequences).
+- Use the cursor colour from the color scheme (or set by escape sequences).
 - Handle Samsung keyboards with the "Auto check spelling" better (but the setting should still be disabled for best interoperability with the terminal).
 - Use a single wake lock instead of two.
 - Support new commands: termux-wake-lock and termux-wake-unlock (run 'apt update && apt upgrade' to have it).
@@ -77,7 +80,7 @@ title: Changelog
 
 # Termux:Styling v0.12 (2016-08-01)
 - Add all base16 256 color schemes.
-- Add Dracula color theme.
+- Add Dracula color scheme.
 - Don't crash on wonky permissions and respect symlinks.
 - Fix incompatibility with Android N (popup dialogs were blank).
 
