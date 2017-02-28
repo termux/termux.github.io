@@ -3,6 +3,11 @@ layout: page
 title: Changelog
 ---
 
+# Termux v0.47 (2017-02-28)
+- Support `xdg-open`, a new built-in command to view files or URL:s in other apps (this replaces `termux-open-url` and `termux-share`, which will soon be removed). While new users will have it available by default, existing users need to run `apt update && apt upgrade`.
+- Allow inline input without newlines in the text input view. Pressing return with text entered will send the text to the terminal. Pressing return again (with empty text) will send a newline.
+- Remove the modal dialog for new users in favour of an inline help message at startup. Run `touch ~/.hushlogin` to get rid of this new message.
+
 # Termux:Styling v0.16 (2017-01-06)
 - Add monochrome `White on Black` and `Black on White` color schemes.
 
@@ -12,6 +17,11 @@ title: Changelog
 - Support the new `termux-notification-remove` command to remove a notification.
 - Add several options to `termux-notification`.
 - Add new commands for wifi information: `termux-wifi-connectioninfo` and `termux-wifi-scaninfo`.
+
+# Termux v0.46 (2016-12-30)
+- Work better with the stock CyanogenMod and AOSP keyboards.
+- Remove the shaking of the terminal on a bell character introduced in v0.44.
+- Restore the ability to press Enter on the on-screen Android TV keyboard.
 
 # Termux:Styling v0.15 (2016-12-29)
 - Add Wild Cherry color scheme.
