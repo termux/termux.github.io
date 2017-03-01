@@ -3,6 +3,9 @@ layout: page
 title: Changelog
 ---
 
+# Termux v0.48 (2017-03-01)
+- Fix crash in termux-open/xdg-open when opening an URL on Android versions before 7.
+
 # Termux v0.47 (2017-02-28)
 - Support `xdg-open`, a new built-in command to view files or URL:s in other apps (this replaces `termux-open-url` and `termux-share`, which will soon be removed). While new users will have it available by default, existing users need to run `apt update && apt upgrade`.
 - Allow inline input without newlines in the text input view. Pressing return with text entered will send the text to the terminal. Pressing return again (with empty text) will send a newline.
