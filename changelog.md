@@ -3,6 +3,13 @@ layout: page
 title: Changelog
 ---
 
+# Termux:Float v0.9 (2017-04-06)
+- Preserve the `ANDROID_ROOT`, `ANDROID_DATA` and `EXTERNAL_STORAGE` environment variables in the launched shell.
+
+# Termux:Float v0.8 (2017-04-05)
+- Updated terminal emulation and keyboard handling.
+- First open source release [on github](https://github.com/termux/termux-float).
+
 # Termux v0.48 (2017-03-01)
 - Fix crash in termux-open/xdg-open when opening an URL on Android versions before 7.
 
