@@ -21,6 +21,7 @@ Want to discuss Termux or get help by others? Visit the [Termux Google+ Communit
 
 ### Using network tools
 - [Using SSH](ssh.html)
+- [Using FTP](ftp.html)
 
 ### Add-ons
 - [Termux:API](add-on-api.html)
