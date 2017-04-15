@@ -5,7 +5,7 @@ title: Using FTP
 
 Using the FTPD client
 --------------------
-You have to run run `ftpd` via `tcpsvd`
+You have to run `ftpd` via `tcpsvd`
 
 Example:
 
