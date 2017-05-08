@@ -3,6 +3,12 @@ layout: page
 title: Changelog
 ---
 
+# Termux:Styling v0.17 (2017-05-08)
+- Fix base16 Monokai color theme.
+- Add Nord color theme.
+- Add Monofur font.
+- Add Monoid font.
+
 # Termux:Float v0.9 (2017-04-06)
 - Preserve the `ANDROID_ROOT`, `ANDROID_DATA` and `EXTERNAL_STORAGE` environment variables in the launched shell.
 
