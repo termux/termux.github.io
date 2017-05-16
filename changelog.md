@@ -3,6 +3,13 @@ layout: page
 title: Changelog
 ---
 
+# Termux v0.49 (2017-05-15)
+- Respect `--content-type` when termux-open/xdg-open is used to open an URL.
+- Work around Android < 7.0 wifi manager leak.
+- Perform haptic feedback on extra keys if enabled.
+- Do not show a toast on clipboard text.
+- Export `TMPDIR`.
+
 # Termux:Styling v0.17 (2017-05-08)
 - Fix base16 Monokai color theme.
 - Add Nord color theme.
