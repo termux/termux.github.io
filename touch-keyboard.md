@@ -3,7 +3,7 @@ layout: page
 title: Using a touch keyboard
 ---
 
-Using the Ctrl key is necessary for working with a terminal - but most touch keyboards does not include one. For that purpose Termux uses the Volume down button to emulate the Ctrl key. For example, pressing Volume down+L on a touch keyboard sends the same input as pressing Ctrl+L on a hardware keyboard.
+Using the Ctrl key is necessary for working with a terminal - but most touch keyboards do not include one. For that purpose Termux uses the Volume down button to emulate the Ctrl key. For example, pressing Volume down+L on a touch keyboard sends the same input as pressing Ctrl+L on a hardware keyboard.
 
 The result of using Ctrl in combination with a key depends on which program is used, but for many command line tools the following shortcuts works:
 
