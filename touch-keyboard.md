@@ -39,7 +39,7 @@ The Volume up key also serves as a special key to produce certain input:
 
 Extra keys view
 ---------------
-Termux also has an extra keys view. It allows you to extend your current keyboard with the keys ESC, CTRL, ALT, TAB, -, / and \|. To enable the extra keys view you have to long tab on the keyboard button in the left drawer menu. You can also press Volume Up+Q. 
+Termux also has an extra keys view. It allows you to extend your current keyboard with the keys ESC, CTRL, ALT, TAB, -, / and \|. To enable the extra keys view you have to long tap on the keyboard button in the left drawer menu. You can also press Volume Up+Q.
 
 ![Screenshot](/files/extra_keys_view.png)
 
