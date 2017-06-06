@@ -3,6 +3,12 @@ layout: page
 title: Changelog
 ---
 
+# Termux v0.51 (2017-06-05)
+- Terminal emulator improvements.
+
+# Termux v0.50 (2017-05-18)
+- Work around issue when building package on F-Droid.
+
 # Termux v0.49 (2017-05-15)
 - Respect `--content-type` when termux-open/xdg-open is used to open an URL.
 - Work around Android < 7.0 wifi manager leak.
