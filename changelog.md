@@ -3,6 +3,9 @@ layout: page
 title: Changelog
 ---
 
+# Termux v0.52 (2017-06-13)
+- Add Multi Window support for Samsung devices.
+
 # Termux v0.51 (2017-06-05)
 - Terminal emulator improvements.
 
