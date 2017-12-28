@@ -3,7 +3,7 @@ layout: page
 title: User interface
 ---
 
-At launch Termux shows a terminal interface, whose text size can be adjusted by pinch zooming or double tapping and pulling the content towards or from you.
+At launch Termux shows a terminal interface, whose text size can be adjusted by pinch zooming.
 
 Besides the terminal (with keyboard shortcuts explained below) there are three additional interface elements available: A **context menu**, **navigation drawer** and **notification**.
 
