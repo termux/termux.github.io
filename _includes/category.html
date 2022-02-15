@@ -2,7 +2,7 @@
   {%- if page.category_name -%}
 
     {% assign category_posts = site.categories[page.category_name] %}
-    <h1 class="page-heading">{{ page.category_name | capitalize }} Posts ({{ category_posts.size }})</h1>
+    <h1 class="page-heading">{{ page.category_name | capitalize }} Posts ({{ category_posts.size | default: "0" }})</h1>
 
     {%- if category_posts.size > 0 -%}
       <ul class="post-list">
