@@ -25,11 +25,15 @@ github_username:  termux
 github: [metadata]
 
 # Build settings
-markdown: kramdown
 theme: minima
 
 plugins:
   - jekyll-feed
+
+markdown: CommonMarkGhPages
+commonmark:
+  options: ["GITHUB_PRE_LANG", "FOOTNOTES"]
+  extensions: ["strikethrough", "autolink", "table", "tagfilter"]
 
 feed:
   categories:
