@@ -1,6 +1,6 @@
 ### Termux.com
 
-This is the source repository for [termux.com](https://termux.com).
+This is the source repository for [termux.github.io](https://termux.github.io).
 ##
 
 

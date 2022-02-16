@@ -17,7 +17,7 @@ title: Termux
 description: >- # this means to ignore newlines until "baseurl:"
   Terminal emulator and Linux environment for Android.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://termux.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://termux.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 site_source: "https://github.com/termux/termux.github.io"
 twitter_username: termux
 github_username:  termux
