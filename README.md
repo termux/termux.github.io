@@ -54,7 +54,7 @@ category: <category_name>
 Post Content
 ```
 
-2. Add any asset files used by the post under the `assets/posts/<category_name>/YYYY-MM-DD-POST_TITLE` directory, like `assets/general/post-title` and link to them with `[Text Asset](/assets/general/post-title/asset.txt)` or `![Image Asset](/assets/general/post-title/asset.png)`. Check [jekyll docs](https://jekyllrb.com/docs/posts/#including-images-and-resources) for more.
+2. Add any asset files used by the post under the `assets/posts/<category_name>/YYYY-MM-DD-POST_TITLE` directory, like `assets/general/1970-01-01-post-title` and link to them with `[Text Asset](/assets/general/1970-01-01-post-title/asset.txt)` or `![Image Asset](/assets/general/1970-01-01-post-title/asset.png)`. Check [jekyll docs](https://jekyllrb.com/docs/posts/#including-images-and-resources) for more.
 
 3. Ensure that the first paragraph of the post is a just a short description of the post since that text will show in the posts list for the category. This is done by setting `show_excerpts` to `true` in [`_config.yml`](_config.yml) and used by [`category.html`](_includes/category.html). Check [jekyll docs](https://jekyllrb.com/docs/posts/#post-excerpts) for more info.
 ##
