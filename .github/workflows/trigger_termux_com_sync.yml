@@ -1,0 +1,23 @@
+name: Trigger termux.com sync
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  trigger-termux-com-sync:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Trigger termux.com sync
+      if: github.repository == 'termux/termux.github.io'
+      uses: actions/github-script@v6
+      with:
+        github-token: ${{ secrets.TRIGGER_TERMUX_COM_SYNC_TOKEN }}
+        script: |
+          await github.rest.actions.createWorkflowDispatch({
+            owner: 'termux',
+            repo: 'termux.com',
+            workflow_id: 'sync_termux_com.yml',
+            ref: 'master'
+          })
