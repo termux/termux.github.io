@@ -1,4 +1,4 @@
-### Termux.com
+### Termux.org
 
 This is the source repository for [termux.github.io](https://termux.github.io) and its redirect site [termux.org](https://termux.org).
 ##
