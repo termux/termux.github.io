@@ -1,6 +1,6 @@
-### Termux.org
+### Termux.dev
 
-This is the source repository for [termux.github.io](https://termux.github.io) and its redirect site [termux.org](https://termux.org). The [termux.com](https://termux.com/) is mirrored from [termux/termux.com](https://github.com/termux/termux.com).
+This is the source repository for [termux.github.io](https://termux.github.io) and its custom domain [termux.dev]. The [termux.org] is redirected to [termux.dev]. The [termux.com](https://termux.com/) is mirrored from [termux/termux.com](https://github.com/termux/termux.com) currently, until it can be redirected to [termux.dev].
 ##
 
 
@@ -58,3 +58,6 @@ Post Content
 
 3. Ensure that the first paragraph of the post is a just a short description of the post since that text will show in the posts list for the category. This is done by setting `show_excerpts` to `true` in [`_config.yml`](_config.yml) and used by [`category.html`](_includes/category.html). Check [jekyll docs](https://jekyllrb.com/docs/posts/#post-excerpts) for more info.
 ##
+
+
+[termux.dev]: https://termux.dev
