@@ -39,6 +39,11 @@ feed:
   categories:
     - general
 
+collections:
+  posts:
+    output: true
+    permalink: /posts/:categories/:year/:month/:day/:title:output_ext
+
 show_excerpts: true # set to true to show excerpts on posts
 
 # Exclude from processing.
