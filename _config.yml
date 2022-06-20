@@ -35,6 +35,13 @@ commonmark:
   options: ["GITHUB_PRE_LANG", "FOOTNOTES"]
   extensions: ["strikethrough", "autolink", "table", "tagfilter"]
 
+defaults:
+  -
+    scope:
+      path: "docs"
+    values:
+      layout: "default"
+
 feed:
   categories:
     - general
