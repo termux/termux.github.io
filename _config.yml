@@ -32,7 +32,7 @@ plugins:
 
 markdown: CommonMarkGhPages
 commonmark:
-  options: ["GITHUB_PRE_LANG", "FOOTNOTES"]
+  options: ["GITHUB_PRE_LANG", "FOOTNOTES", "UNSAFE"]
   extensions: ["strikethrough", "autolink", "table", "tagfilter"]
 
 defaults:
