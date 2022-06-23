@@ -41,7 +41,7 @@ defaults:
     scope:
       path: "docs"
     values:
-      layout: "default"
+      layout: "docs"
 
 feed:
   categories:
