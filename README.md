@@ -26,6 +26,7 @@ to start a local server at http://localhost:4000.
 ---
 layout: default
 title: <category_name> Posts
+no_add_title_heading: true
 permalink: /posts/<category_name>
 category_name: <category_name>
 ---
