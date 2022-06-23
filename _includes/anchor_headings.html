@@ -96,7 +96,7 @@
     {% assign _classWorkspace = _classWorkspace[1] | split: '"' %}
     {% assign _html_class = _classWorkspace[0] %}
 
-    {% if _html_class contains "no_anchor" %}
+    {% if _html_class contains "no_anchor" or header == "" %}
       {% assign skip_anchor = true %}
     {% else %}
       {% assign skip_anchor = false %}
@@ -147,17 +147,26 @@
       {% endif %}
     {% endif %}
 
-    {% capture new_heading %}
-      <h{{ _hAttrToStrip }}
-        {{ include.bodyPrefix }}
-        {% if beforeHeading %}
-          {{ anchor }}{{ header }}
-        {% else %}
-          {{ header }}{{ anchor }}
-        {% endif %}
-        {{ include.bodySuffix }}
-      </h{{ headerLevel }}>
-    {% endcapture %}
+    {% if header == "" and headerLevel >= minHeader and headerLevel <= maxHeader %}
+      {% capture new_heading %}
+        <h{{ headerLevel }}></h{{ headerLevel }}>
+      {% endcapture %}
+
+    {% else %}
+
+      {% capture new_heading %}
+        <h{{ _hAttrToStrip }}
+          {{ include.bodyPrefix }}
+          {% if beforeHeading %}
+            {{ anchor }}{{ header }}
+          {% else %}
+            {{ header }}{{ anchor }}
+          {% endif %}
+          {{ include.bodySuffix }}
+        </h{{ headerLevel }}>
+      {% endcapture %}
+
+    {% endif %}
 
     <!--
     If we have content after the `</hX>` tag, then we'll want to append that here so we don't lost any content.

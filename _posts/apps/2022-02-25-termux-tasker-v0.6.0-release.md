@@ -7,16 +7,12 @@ category: apps
 The `Termux:Tasker` `v0.6.0` is out.
 
 **It is highly recommended that you update to `v0.5.0` or higher for fixes for vulnerabilities disclosed in the [Termux Apps Vulnerability Disclosures](https://termux.github.io/general/2022/02/15/termux-apps-vulnerability-disclosures.html) post.**
-
----
-&nbsp;&nbsp;
+##
 
 
 
 You can check the release at github [here](https://github.com/termux/termux-tasker/releases/tag/v0.6.0).
-
----
-&nbsp;&nbsp;
+##
 
 
 
@@ -112,9 +108,7 @@ You can check the release at github [here](https://github.com/termux/termux-task
 - Update install instructions. ([`ea1225ae`](https://github.com/termux/termux-tasker/commit/ea1225ae))
 
 - Remove links to Google Play and Nethunter stores. Both offer outdated builds. ([`552d592e`](https://github.com/termux/termux-tasker/commit/552d592e))  
-
----
-&nbsp;&nbsp;
+##
 
 
 
@@ -123,9 +117,7 @@ You can check the release at github [here](https://github.com/termux/termux-task
 - [F-Droid Termux:Tasker APK Direct Link](https://f-droid.org/repo/com.termux.tasker_6.apk)
 - [F-Droid Termux:Tasker Site](https://f-droid.org/en/packages/com.termux.tasker)
 - [F-Droid App](https://f-droid.org/en/packages/org.fdroid.fdroid) (Pull down from the top in the `Updates` tab for the update to show)
-
----
-&nbsp;&nbsp;
+##
 
 
 

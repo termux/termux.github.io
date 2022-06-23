@@ -7,3 +7,4 @@ Welcome to documentation for Termux.
 The following Android apps are supported.
 
 - [Termux app](apps/termux/index.md)
+##
