@@ -1,75 +1,26 @@
 ---
 layout: default
 ---
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
-      </time>
-      {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-      {%- endif -%}
-    </p>
-    <style>
-      h1 {
-        margin-left: -20px;
-        padding-left: 10px; 
-      }
+<div class="container-lg px-3 my-5 markdown-body">
+  {%- if page.title and page.title != "" -%}
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  {%- endif -%}
+  <p class="post-meta">
+    <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      {{ page.date | date: date_format }}
+    </time>
+    {%- if page.author -%}
+      • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+    {%- endif -%}
+  </p>
 
-      h2 {
-        margin-left: -18px;
-        padding-left: 10px;
-        border-bottom: 2px solid #eee;
-      }
+  {% include markdown-processor.html markdown=content %}
+</div>
 
-      h3 {
-        margin-left: -16px;
-        padding-left: 10px;
-      }
-      
-      h4 {
-        margin-left: -14px;
-        padding-left: 10px;
-      }
-      
-      h5 {
-        margin-left: -12px;
-        padding-left: 10px;
-      }
-      
-      h6 {
-        margin-left: -10px;
-        padding-left: 10px;
-      }
-      
-      h1 .octicon, h2 .octicon, h3 .octicon, h4 .octicon, h5 .octicon, h6 .octicon  {
-        visibility: hidden;
-      }
-    
-      h1:hover .octicon, h2:hover .octicon, h3:hover .octicon, h4:hover .octicon, h5:hover .octicon, h6:hover .octicon {
-        visibility: visible;
-      }
-
-      .octicon {
-        fill: currentColor;
-        padding: 0;
-        margin-left: -16px;
-        vertical-align: middle;
-      }
-    </style>
-  </header>
-
-  <div class="post-content e-content" itemprop="articleBody">
-    {% include markdown-processor.html markdown=content %}
-  </div>
-
+<div class="wrapper">
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
-
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-</article>
+</div>

@@ -25,10 +25,11 @@ github_username:  termux
 github: [metadata]
 
 # Build settings
-theme: minima
+remote_theme: pages-themes/primer@v0.6.0
 
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 markdown: CommonMarkGhPages
 commonmark:
