@@ -30,6 +30,7 @@ remote_theme: pages-themes/primer@v0.6.0
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-redirect-from
 
 markdown: CommonMarkGhPages
 commonmark:
