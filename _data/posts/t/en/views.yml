@@ -1,0 +1,9 @@
+---
+index:
+  apps: Apps
+  general: General
+  packages: Packages
+  apps_posts: Apps Posts
+  general_posts: General Posts
+  packages_posts: Packages Posts
+  subscribe_to_rss_feed: Subscribe to RSS feed

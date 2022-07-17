@@ -4,19 +4,25 @@ layout: default
 
 <div class="container-lg px-3 my-5 markdown-body">
   {%- if page.title and page.title != "" -%}
-    <h1 class="post-title">{{ page.title | escape }}</h1>
+    <h1 class="post-title">{{- page.title | escape -}}</h1>
   {%- endif -%}
   <p class="post-meta">
-    <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      {{ page.date | date: date_format }}
+    <time class="dt-published" datetime="{{- page.date | date_to_xmlschema -}}" itemprop="datePublished">
+      {{- "<strong>Created:</strong> " -}}{%- include utils/datetime/format.html date=page.date lang=page.lang strip_midnight=true -%}
     </time>
+    {%- if page.last_modified_at -%}
+      <time class="dt-modified" datetime="{{- page.last_modified_at | date_to_xmlschema -}}" itemprop="dateModified">
+        {{- " <strong>Last Modified:</strong> " -}}{%- include utils/datetime/format.html date=page.last_modified_at lang=page.lang strip_midnight=true -%}
+      </time>
+    {%- endif -%}
     {%- if page.author -%}
-      • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+      <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">
+        {{- " <strong>Author:</strong> " -}}{{- page.author -}}
+      </span></span>
     {%- endif -%}
   </p>
 
-  {% include markdown-processor.html markdown=content %}
+  {% include utils/markdown/markdown-processor.html markdown=content %}
 </div>
 
 <div class="wrapper">

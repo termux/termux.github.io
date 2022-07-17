@@ -1,8 +1,7 @@
 ---
-layout: post
 title:  "Termux:Tasker v0.6.0 Release"
-category: apps
 redirect_from: /apps/2022/02/25/termux-tasker-v0.6.0-release.html
+page_ref: /posts/apps/2022/02/25/termux-tasker-v0.6.0-release.html
 ---
 
 The `Termux:Tasker` `v0.6.0` is out.

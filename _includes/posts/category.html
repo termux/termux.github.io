@@ -1,24 +1,28 @@
 <div class="category">
   {%- if page.category_name -%}
 
-    {% assign category_posts = site.categories[page.category_name] %}
-    <h1 class="page-heading">{{ page.category_name | capitalize }} Posts ({{ category_posts.size | default: "0" }})</h1>
+    {%- assign category_posts = site.categories[page.category_name] | where: "lang", page.lang -%}
+    {%- assign category_translate_key = "views.index." | append: page.category_name | append: "_posts" -%}
+    <h1 class="page-heading">{%- include t.html root="posts" key=category_translate_key -%} ({{- category_posts.size | default: "0" -}})</h1>
 
     {%- if category_posts.size > 0 -%}
       <ul class="post-list">
         {%- for post in category_posts -%}
-        <li>
-          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-          <span class="post-meta">{{ post.date | date: date_format }}</span>
-          <h3>
-            <a class="post-link" href="{{ post.url | relative_url }}">
-              {{ post.title | escape }}
-            </a>
-          </h3>
-          {%- if site.show_excerpts -%}
-            {{ post.excerpt }}
-          {%- endif -%}
-        </li>
+          <li>
+            <h3><a class="post-link" href="{{- post.url | relative_url -}}">{{- post.title | escape -}}</a></h3>
+            <span class="post-meta">
+              {{- "<strong>Created:</strong> " -}}{%- include utils/datetime/format.html date=post.date lang=post.lang strip_midnight=true -%}
+              {%- if post.last_modified_at -%}
+                {{- " <strong>Last Modified:</strong> " -}}{%- include utils/datetime/format.html date=post.last_modified_at lang=post.lang strip_midnight=true -%}
+              {%- endif -%}
+              {%- if post.author -%}
+                {{- " <strong>Author:</strong> " -}}{{- post.author }}
+              {%- endif -%}
+            </span>
+            {%- if site.show_excerpts -%}
+              {{ post.excerpt }}
+            {%- endif -%}
+          </li>
         {%- endfor -%}
       </ul>
     {%- endif -%}
@@ -28,4 +32,3 @@
   {%- endif -%}
 
 </div>
-

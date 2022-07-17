@@ -55,15 +55,50 @@ defaults:
     values:
       layout: "doc"
 
+# Set post layout for all posts files
+  -
+    scope:
+      path: "_posts"
+    values:
+      layout: "posts/post"
 
 
-# Set page.lang for all files under respective locales and ensure index.html is added for directories
+# Set page.lang for all files under respective languages and ensure index.html is added for directories
   -
     scope:
       path: "en"
     values:
       lang: en
       permalink: /:path/:basename:output_ext
+
+
+# Set page.category for all posts under respective categories
+  -
+    scope:
+      path: "_posts/*/apps"
+    values:
+      category: apps
+
+  -
+    scope:
+      path: "_posts/*/general"
+    values:
+      category: general
+
+  -
+    scope:
+      path: "_posts/*/packages"
+    values:
+      category: packages
+
+
+# Set page.lang for all posts files under respective languages and permalink with /en/:collection prefix
+  -
+    scope:
+      path: "_posts/en"
+    values:
+      lang: en
+      permalink: /en/:collection/:categories/:year/:month/:day/:title:output_ext
 
 
 # Exclude from processing.

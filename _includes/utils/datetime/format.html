@@ -1,0 +1,15 @@
+{%- if include.lang == "en" -%}
+    {%- assign format = "%Y/%m/%d %H:%M" -%}
+{%- elsif include.lang == "ru" -%}
+    {%- assign format = "%d/%m/%Y %H:%M" -%}
+{%- else -%}
+    {%- assign format = "%Y/%m/%d %H:%M" -%}
+{%- endif -%}
+
+{%- assign formatted_date = include.date | date: format -%}
+
+{%- if include.strip_midnight -%}
+    {%- assign formatted_date = formatted_date | replace: "00:00" -%}
+{%- endif -%}
+
+{{- formatted_date | strip -}}
