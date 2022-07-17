@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Privacy Policy
-permalink: /privacy-policy
+redirect_from: /privacy-policy
+page_ref: /privacy-policy.html
 ---
 
 Termux does not record any personal information and requests permissions only for termux and its plugin apps to function properly, without sending any data over the network in the background.

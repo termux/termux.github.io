@@ -1,11 +1,6 @@
 ---
-layout: page
-title: Posts
+layout: redirect
+sitemap: false
 permalink: /posts
+redirect_to: /en/posts
 ---
-
-- [General](/posts/general)
-- [Apps](/posts/apps)
-- [Packages](/posts/packages)
-
-Subscribe [via RSS feed](/feed.xml).

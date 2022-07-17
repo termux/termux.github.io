@@ -1,5 +1,6 @@
 ---
 layout: redirect
 sitemap: false
-redirect_to: /en/
+permalink: /docs
+redirect_to: /en/docs
 ---

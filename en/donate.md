@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Donate
-permalink: /donate
+redirect_from: /donate
+page_ref: /donate.html
 ---
 
 You can consider donating if you want to support [@termux](https://github.com/termux) development, encourage us to bring more features/packages and help pay hosting costs for our sites and additional packages repositories and mirrors, pay testing devices costs, etc.

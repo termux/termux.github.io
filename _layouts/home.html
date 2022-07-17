@@ -26,9 +26,7 @@ no_add_title_heading: true
 <div class="home">
   {{ content }}
 
-  <p>Termux is an <strong>Android terminal emulator and Linux environment app</strong> that
-     works directly with no rooting or setup required. A minimal base system is installed automatically
-     - additional packages are available using the APT package manager.</p>
+  <p>{%- include t.html key="views.home.intro" -%}</p>
 
   <div class="badges">
     <a href="https://github.com/termux/termux-app#github">
@@ -42,36 +40,26 @@ no_add_title_heading: true
   <p class="wiki"><a href="https://wiki.termux.com/wiki/Main_Page">Read the wiki to learn more</a></p>
   <img class="phone" src="/assets/globals/home/htop_framed.png" data-sliderimages="/assets/globals/home/vim-main_framed.png,/assets/globals/home/hello_framed.png,/assets/globals/home/weechat-with-keyboard_framed.png" alt="" width="305" height="600"/>
 
+  <p><strong class="first">{%- include t.html key="views.home.features.secure.title" -%}</strong> 
+  {% include t.html key="views.home.features.secure.description" %}</p>
 
-  <p><strong class="first">Secure.</strong>
-  Access remote servers using the ssh client from OpenSSH. Termux combines standard packages
-  with accurate terminal emulation in a beautiful open source solution.</p>
+  <p><strong class="first">{%- include t.html key="views.home.features.feature_packed.title" -%}</strong>
+  {% include t.html key="views.home.features.feature_packed.description" %}</p>
 
-  <p><strong class="first">Feature packed.</strong>
-  Take your pick between Bash, fish or Zsh and nano, Emacs or Vim. Grep through your
-  SMS inbox.  Access API endpoints with curl and use rsync to store backups of
-  your contact list on a remote server.</p>
+  <p><strong class="first">{%- include t.html key="views.home.features.customizable.title" -%}</strong>
+  {% include t.html key="views.home.features.customizable.description" %}</p>
 
-  <p><strong class="first">Customizable.</strong>
-  Install what you want through the APT package management system known from Debian
-  and Ubuntu GNU/Linux. Why not start with installing Git and syncing your dotfiles?</p>
+  <p><strong class="first">{%- include t.html key="views.home.features.explorable.title" -%}</strong>
+  {% include t.html key="views.home.features.explorable.description" %}</p>
 
-  <p><strong class="first">Explorable.</strong>
-  Have you ever sat on a bus and wondered exactly which arguments tar accepts?
-  Packages available in Termux are the same as those on Mac and Linux - install man pages on your
-  phone and read them in one session while experimenting with them in another.</p>
+  <p><strong class="first">{%- include t.html key="views.home.features.portable.title" -%}</strong>
+  {% include t.html key="views.home.features.portable.description" %}</p>
 
-  <p><strong class="first">With batteries included.</strong> 
-  Can you imagine a more powerful yet elegant pocket calculator than a readline-powered Python console?
-  Up-to-date versions of Perl, Python, Ruby and Node.js are all available.</p>
+  <p><strong class="first">{%- include t.html key="views.home.features.scalable.title" -%}</strong>
+  {% include t.html key="views.home.features.scalable.description" %}</p>
 
-  <p><strong class="first">Ready to scale up.</strong> 
-  Connect a Bluetooth keyboard and hook up your device to an external display if you need to - Termux supports
-  keyboard shortcuts and has full mouse support.<p>
-
-  <p><strong class="first">Tinkerable.</strong> 
-  Develop by compiling Go, Rust, Swift, or C files with Clang and build your own projects
-  with CMake and pkg-config. Both lldb/GDB and strace are available if you get stuck and need to debug.</p>
+  <p><strong class="first">{%- include t.html key="views.home.features.tinkerable.title" -%}</strong>
+  {% include t.html key="views.home.features.tinkerable.description" %}</p>
 
   <div class="badges">
   <a href="https://fosshost.org"> 

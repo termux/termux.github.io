@@ -12,7 +12,7 @@
             {%- if site.author -%}
               {{- site.author | escape -}}
             {%- elsif site.site_source -%}
-              <li><a href="{{- site.site_source -}}">Site Source</a></li>
+              <li><a href="{{- site.site_source -}}">{%- include t.html key="views.navigation.site_source" -%}</a></li>
             {%- endif -%}
             </li>
             {%- if site.email -%}
@@ -26,7 +26,7 @@
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{%- site.description | escape -%}</p>
+        <p>{%- include t.html key="views.navigation.description" -%}</p>
       </div>
     </div>
 

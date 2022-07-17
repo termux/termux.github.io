@@ -1,0 +1,51 @@
+---
+intro: >-
+  Termux is an <strong>Android terminal emulator and Linux environment
+  app</strong> that works directly with no rooting or setup required.
+  A minimal base system is installed automatically - additional packages
+  are available using the APT package manager.
+
+features:
+  secure:
+    title: Secure.
+    description: >-
+      Access remote servers using the ssh client from OpenSSH. Termux
+      combines standard packages with accurate terminal emulation in
+      a beautiful open source solution.
+  feature_packed:
+    title: Feature packed.
+    description: >-
+      Take your pick between Bash, fish or Zsh and nano, Emacs or Vim.
+      Grep through your SMS inbox. Access API endpoints with curl and
+      use rsync to store backups of your contact list on a remote server.
+  customizable:
+    title: Customizable.
+    description: >-
+      Install what you want through the APT package management system
+      known from Debian and Ubuntu GNU/Linux. Why not start with
+      installing Git and syncing your dotfiles?
+  explorable:
+    title: Explorable.
+    description: >-
+      Have you ever sat on a bus and wondered exactly which arguments
+      tar accepts? Packages available in Termux are the same as those
+      on Mac and Linux - install man pages on your phone and read them
+      in one session while experimenting with them in another.
+  portable:
+    title: Portable - With batteries included.
+    description: >-
+      Can you imagine a more powerful yet elegant pocket calculator
+      than a readline-powered Python console? Up-to-date versions of
+      Perl, Python, Ruby and Node.js are all available.
+  scalable:
+    title: Ready to scale up.
+    description: >-
+      Connect a Bluetooth keyboard and hook up your device to an external
+      display if you need to - Termux supports keyboard shortcuts and
+      has full mouse support.
+  tinkerable:
+    title: Tinkerable.
+    description: >-
+      Develop by compiling Go, Rust, Swift, or C files with Clang and
+      build your own projects with CMake and pkg-config. Both lldb/GDB
+      and strace are available if you get stuck and need to debug.

@@ -3,7 +3,8 @@
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    {%- assign path = "/" | append: page.lang -%}
+    <a class="site-title" rel="author" href="{{- path | relative_url -}}">{{- site.title | escape -}}</a>
 
     {%- if page_paths -%}
       <nav class="site-nav">
@@ -17,11 +18,74 @@
         </label>
 
         <div class="trigger">
-          <a class="page-link" href="/docs">Docs</a>
-          <a class="page-link" href="/posts">Posts</a>
-          <a class="page-link" href="https://packages.termux.dev">Packages</a>
-          <a class="page-link" href="/donate">Donate</a>
-          <a class="page-link" href="/privacy-policy">Privacy Policy</a>
+          {%- assign path = page.lang | append: "/docs/index.md" -%}
+          {%- assign file_exists = site.html_pages | where: "path", path -%}
+          {%- if file_exists.size != 0 -%}
+            <a class="page-link" href="/{{- page.lang -}}/docs/index.html">{%- include t.html key="views.navigation.docs" -%}</a>
+          {%- else -%}
+            <a class="page-link" href="/{{- site.lang -}}/docs/index.html">{%- include t.html key="views.navigation.docs" lang=site.lang -%}</a>
+          {%- endif -%}
+
+          {%- assign path = page.lang | append: "/posts/index.md" -%}
+          {%- assign file_exists = site.html_pages | where: "path", path -%}
+          {%- if file_exists.size != 0 -%}
+            <a class="page-link" href="/{{- page.lang -}}/posts/index.html">{%- include t.html key="views.navigation.posts" -%}</a>
+          {%- else -%}
+            <a class="page-link" href="/{{- site.lang -}}/posts/index.html">{%- include t.html key="views.navigation.posts" lang=site.lang -%}</a>
+          {%- endif -%}
+
+          <a class="page-link" href="https://packages.termux.dev">{%- include t.html key="views.navigation.packages" -%}</a>
+
+          {%- assign path = page.lang | append: "/donate.md" -%}
+          {%- assign file_exists = site.html_pages | where: "path", path -%}
+          {%- if file_exists.size != 0 -%}
+            <a class="page-link" href="/{{- page.lang -}}/donate">{%- include t.html key="views.navigation.donate" -%}</a>
+          {%- else -%}
+            <a class="page-link" href="/{{- site.lang -}}/donate">{%- include t.html key="views.navigation.donate" lang=site.lang -%}</a>
+          {%- endif -%}
+
+          {%- assign path = page.lang | append: "/privacy-policy.md" -%}
+          {%- assign file_exists = site.html_pages | where: "path", path -%}
+          {%- if file_exists.size != 0 -%}
+            <a class="page-link" href="/{{- page.lang -}}/privacy-policy">{%- include t.html key="views.navigation.privacy_policy" -%}</a>
+          {%- else -%}
+            <a class="page-link" href="/{{- site.lang -}}/privacy-policy">{%- include t.html key="views.navigation.privacy_policy" lang=site.lang -%}</a>
+          {%- endif -%}
+
+          {%- if page.page_ref and page.lang -%}
+            {%- if page.collection == "posts" -%}
+              {%- assign alternate_translations = site.posts | where: "page_ref", page.page_ref | sort: "lang" -%}
+            {%- else -%}
+              {%- assign alternate_translations = site.pages | where: "page_ref", page.page_ref | sort: "lang" -%}
+            {%- endif -%}
+
+
+            <script src="/assets/js/language.js"></script>
+            <div class="dropdown">
+              <button onclick="toggleLanguageSelector()" class="dropbtn">{{- page.lang -}}</button>
+              <div id="languageDropdown" class="dropdown-content">
+               {%- for lang in site.supported_langs -%}
+                  {%- if page.lang == lang -%}
+                    <!---
+                    Need to add earth grid icon, fix button size and dropdown overflow on mobile devices
+                    <a class="btn btn-secondary nav-link active disabled" role="button"
+                      aria-pressed="true">{{- site.data.language[lang].name_native | append: " (" | append: lang | append: ")" -}}</a>
+                    -->
+                    <a class="btn btn-secondary nav-link active disabled" role="button"
+                      aria-pressed="true">{{- lang -}}</a>
+                  {%- else -%}
+                    {%- assign alternate_translation = alternate_translations | where: "lang", lang | first -%}
+
+                    {%- if alternate_translation -%}
+                      <a class="btn btn-secondary nav-link" role="button"
+                        href="{{- alternate_translation.url -}}">{{- lang -}}</a>
+                    {%- endif -%}
+                  {%- endif -%}
+                {%- endfor -%}
+              </div>
+            </div>
+          {%- endif -%}
+
         </div>
       </nav>
     {%- endif -%}

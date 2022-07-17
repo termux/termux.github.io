@@ -1,0 +1,65 @@
+{% comment %}
+  Get translation for key as per `site.data<root_key>.t[lang]<key>` loaded
+  from data files under `_data/t/` directory by jekyll.
+  .
+  This is done by first getting dict for `site.data`, then traversing
+  down the dot separated root keys to get parent dict of `t[lang]` if passed.
+  The getting dict for `t[lang]` and then traversing down the dot separated
+  keys to get bottom key value. This won't work for arrays, but support
+  could be added in future
+  .
+  https://jekyllrb.com/docs/datafiles/
+  .
+  **Parameters:**
+  `lang` - The language to get translation for. If not passed, then
+           page.lang will be used if set, otherwise site.lang.
+  `root` - The dot separated root key before `t[lang]` dict.
+  `key` - The dot separated value key after `t[lang]` dict.
+  `ignore_empty` - If empty translations should be forced ignored. If lang
+                   is not passed and lang/page.lang does not equal site.lang
+                   and translation is empty, then translation for site.lang
+                   is used to prevent empty elements in alternate translations
+                   pages.
+  .
+  **Returns:**
+  Returns the translation of a key.
+{% endcomment %}
+
+{%- if include.lang -%}
+  {%- assign lang = include.lang -%}
+{%- else -%}
+  {%- if page.lang -%}
+    {%- assign lang = page.lang -%}
+  {%- else -%}
+    {%- assign lang = site.lang -%}
+  {%- endif -%}
+{%- endif -%}
+
+{%- assign value = site.data -%}
+
+{%- if include.root -%}
+  {%- assign subkeys = include.root | split: "." -%}
+  {%- for subkey in subkeys -%}
+    {%- assign value = value[subkey] -%}
+  {%- endfor -%}
+{%- endif -%}
+
+{%- assign t_data = value["t"] -%}
+
+{%- assign value = t_data[lang] -%}
+
+{%- assign subkeys = include.key | split: "." -%}
+{%- for subkey in subkeys -%}
+  {%- assign value = value[subkey] -%}
+{%- endfor -%}
+
+{%- if value or include.ignore_empty or include.lang or lang == site.lang -%}
+  {{- value -}}
+{%- else -%}
+  {%- assign value = t_data[site.lang] -%}
+  {%- assign subkeys = include.key | split: "." -%}
+  {%- for subkey in subkeys -%}
+    {%- assign value = value[subkey] -%}
+  {%- endfor -%}
+  {{- value -}}
+{%- endif -%}
