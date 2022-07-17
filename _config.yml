@@ -17,7 +17,7 @@ title: Termux
 lang: en
 supported_langs: [en]
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://termux.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://termux.dev" # the base hostname & protocol for your site, e.g. http://example.com
 site_source: "https://github.com/termux/termux.github.io"
 twitter_username: termuxdevs
 github_username:  termux
