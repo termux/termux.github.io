@@ -4,7 +4,7 @@ layout: default
 
 <div class="container-lg px-3 my-5 markdown-body">
   {%- if page.title and page.title != "" and page.no_add_title_heading != true -%}
-    <h1 class="post-title">{{ page.title | escape }}</h1>
+    <h1 class="post-title">{{- page.title | escape -}}</h1>
   {%- endif -%}
 
   {% include markdown-processor.html markdown=content %}

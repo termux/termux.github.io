@@ -5,7 +5,7 @@ no_add_title_heading: true
 
 <header class="home-header">
   {%- if page.title and page.title != "" -%}
-    <h1 class="home-title">{{ page.title | escape }}</h1>
+    <h1 class="home-title">{{- page.title | escape -}}</h1>
   {%- endif -%}
   <style>
     .first { font-weight: bold; }
