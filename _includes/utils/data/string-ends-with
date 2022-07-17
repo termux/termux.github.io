@@ -1,0 +1,14 @@
+{%- if include.string and include.string != "" and include.subString and include.subString != "" -%}
+  {%- assign _substring_size = include.subString | size -%}
+  {%- assign _string_size = include.string | size -%}
+  {%- assign end_string_start_index = _string_size | minus: _substring_size -%}
+  {%- assign _match_string = include.string | slice: end_string_start_index, _substring_size -%}
+
+  {%- if _match_string == include.subString -%}
+    {{- "true" -}}
+  {%- else -%}
+    {{- "false" -}}
+  {%- endif -%}
+{%- else -%}
+  {{- "false" -}}
+{%- endif -%}
