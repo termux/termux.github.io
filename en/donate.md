@@ -14,8 +14,11 @@ Donating to us will show your appreciation and help support the work (as in deve
 
 ### Open Collective
 
-Our [@opencollective](https://github.com/opencollective) account at https://opencollective.com/termux whose fiscal hosting (financial management) is done by Open Source Collective (https://www.oscollective.org). Recurring monthly/yearly (fiat only) and one time [contributions](https://opencollective.com/termux/contribute) are supported. You can pay fiat currencies with debit card, PayPal, bank transfer and can also pay with `40+` supported crypto currencies, including `BTC` and `ETH`.
+Our [@opencollective](https://github.com/opencollective) account at https://opencollective.com/termux whose fiscal hosting (financial management) is done by Open Source Collective (https://www.oscollective.org). Recurring custom monthly/yearly (fiat only) and one time [contributions](https://opencollective.com/termux/contribute) are supported. You can pay fiat currencies with credit/debit card, PayPal, bank transfer and can also pay with `40+` supported crypto currencies, including `BTC` and `ETH`.
 
+### Github Sponsors
+
+Become our [github sponsor](https://github.com/sponsors) at https://github.com/sponsors/termux whose fiscal hosting (financial management) is done by Open Source Collective (https://www.oscollective.org). Recurring custom monthly and one time contributions are [supported](https://docs.github.com/en/sponsors/sponsoring-open-source-contributors/sponsoring-an-open-source-contributor). You can pay fiat currencies with credit/debit card or PayPal.
 
 ### Agnostic Apollo
 
