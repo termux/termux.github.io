@@ -39,6 +39,9 @@ Become our [github sponsor](https://github.com/sponsors) at https://github.com/s
 
 [@thunder-coding](https://github.com/thunder-coding) maintains `nodejs`, and often updates critical dependencies in main repo. Mostly packaging work and other chore tasks. Visit [Yaksh Bariya's website](https://codingthunder.me/sponsor) for more information.
 
+### Max Ivan
+
+[@maxython](https://github.com/maxython) supports the pacman package manager and its package services. Donate via cryptocurrencies, see [maxython.pw](https://maxython.pw) for details.
 
 ### Fornwall
 
