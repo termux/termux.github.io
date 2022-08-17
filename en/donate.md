@@ -16,9 +16,11 @@ Donating to us will show your appreciation and help support the work (as in deve
 
 Our [@opencollective](https://github.com/opencollective) account at https://opencollective.com/termux whose fiscal hosting (financial management) is done by Open Source Collective (https://www.oscollective.org). Recurring custom monthly/yearly (fiat only) and one time [contributions](https://opencollective.com/termux/contribute) are supported. You can pay fiat currencies with credit/debit card, PayPal, bank transfer and can also pay with `40+` supported crypto currencies, including `BTC` and `ETH`.
 
+
 ### Github Sponsors
 
 Become our [github sponsor](https://github.com/sponsors) at https://github.com/sponsors/termux whose fiscal hosting (financial management) is done by Open Source Collective (https://www.oscollective.org). Recurring custom monthly and one time contributions are [supported](https://docs.github.com/en/sponsors/sponsoring-open-source-contributors/sponsoring-an-open-source-contributor). You can pay fiat currencies with credit/debit card or PayPal.
+
 
 ### Agnostic Apollo
 
@@ -38,6 +40,11 @@ Become our [github sponsor](https://github.com/sponsors) at https://github.com/s
 ### Yaksh Bariya
 
 [@thunder-coding](https://github.com/thunder-coding) maintains `nodejs`, and often updates critical dependencies in main repo. Mostly packaging work and other chore tasks. Visit [Yaksh Bariya's website](https://codingthunder.me/sponsor) for more information.
+
+
+### Max Ivan
+
+[@maxython](https://github.com/maxython) supports termux `pacman` package manager and its packages. Check [maxython.pw](https://maxython.pw) for how to donate.
 
 
 ### Fornwall
