@@ -4,3 +4,7 @@
 en:
   name_english: "English"
   name_native: "English"
+
+cn:
+  name_english: "Chinese"
+  name_native: "中文"
