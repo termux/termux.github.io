@@ -1,0 +1,49 @@
+---
+intro: >-
+  Termux是一个<strong>Android终端模拟器和Linux环境的应用程序</strong>
+  无需Root或设置即可直接使用。
+  自动安装最小的基本系统
+  - 使用 APT 包管理器可以获得其他软件包。
+
+features:
+  secure:
+    title: 安全
+    description: >-
+      使用来自 OpenSSH 的 ssh 客户端访问远程服务器。
+      Termux 将标准包与准确的终端仿真结合在一个漂亮的开源解决方案中。
+  feature_packed:
+    title: 功能丰富
+    description: >-
+      在 bash、fish 或 zsh 和 nano、Emacs 或 Vim 之间进行选择。
+      通过 Grep 搜索您的 SMS 收件箱。 
+      使用 curl 访问 API 并使用 rsync 将联系人列表的备份存储在远程服务器上。
+  customizable:
+    title: 可定制
+    description: >-
+      通过 Debian 和 Ubuntu GNU/Linux 
+      等已知的 APT 包管理系统安装您想要的。 
+      为什么不从安装 Git 和同步您的点文件开始呢？
+  explorable:
+    title: 可探索
+    description: >-
+      你有没有坐在公共汽车上想知道 tar 到底接受了哪些参数？ 
+      Termux 中可用的软件包与 Mac 和 Linux 上的软件包相同
+      - 在您的手机上安装手册页并在一个会话中阅读它们，
+      同时在另一个会话中进行试验。
+  portable:
+    title: 便携式 - 包括电池
+    description: >-
+      你能想象一个比 readline 驱动的 Python 控制台更强大、更优雅的袖珍计算器吗？
+      Perl、Python、Ruby 和 Node.js 的最新版本均可用。
+  scalable:
+    title: 准备扩大规模
+    description: >-
+      如果需要，
+      连接蓝牙键盘并将您的设备连接到外部显示器
+      - Termux 支持键盘快捷键并具有完整的鼠标支持。
+  tinkerable:
+    title: 可修补
+    description: >-
+      通过使用 Clang 编译 Go、Rust、Swift 或 C 文件进行开发，
+      并使用 CMake 和 pkg-config 构建您自己的项目。 
+      如果遇到困难需要调试，lldb/GDB 和 strace 都可以使用。
