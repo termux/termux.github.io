@@ -9,7 +9,7 @@ page_ref: /donate.html
 
 我们目前正在使用Github Actions来构建包并将其上传到由 [FossHost](https://fosshost.org/) 托管的 [存储库](https://packages.termux.dev)。 多亏了这一点，主要的基础设施不会给个人开发人员带来任何成本。
 
-向我们捐款将表达您的感激之情，并帮助支持各种成员和贡献者的工作（如开发或维护）。 即使是少量（一杯咖啡）的金额也非常感谢！通过git 历史记录和存储库统计信息 （[`termux-packages`](https://github.com/termux/termux-packages/graphs/contributors)、[`termux-app`](https://github. com/termux/termux-app/graphs/contributors)）查看所有为软件包和应用程序投入时间和精力的人。 其中许多人是外部贡献者，而不是 [@termux 团队](https://github.com/orgs/termux/people) 的成员，但也应该支持他们。 如果你想支持特定包的维护，你也可以查看`termux-packages`中的 [`CODEOWNERS`](https://github.com/termux/termux-packages/blob/master/CODEOWNERS) 。
+向我们捐款将表达您的感激之情，并帮助支持各种成员和贡献者的工作（如开发或维护）。 即使是少量（一杯咖啡）的金额也非常感谢！通过git 历史记录和存储库统计信息 （[`termux-packages`](https://github.com/termux/termux-packages/graphs/contributors)、[`termux-app`](https://github.com/termux/termux-app/graphs/contributors)）查看所有为软件包和应用程序投入时间和精力的人。 其中许多人是外部贡献者，而不是 [@termux 团队](https://github.com/orgs/termux/people) 的成员，但也应该支持他们。 如果你想支持特定包的维护，你也可以查看`termux-packages`中的 [`CODEOWNERS`](https://github.com/termux/termux-packages/blob/master/CODEOWNERS) 。
 
 
 ### Open Collective
