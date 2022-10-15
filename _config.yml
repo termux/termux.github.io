@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Termux  
 lang: en
-supported_langs: [en,cn]
+supported_langs: [en,cn,ar]
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://termux.dev" # the base hostname & protocol for your site, e.g. http://example.com
 site_source: "https://github.com/termux/termux.github.io"
@@ -78,6 +78,12 @@ defaults:
       lang: cn
       permalink: /:path/:basename:output_ext
 
+  -
+    scope:
+      path: "ar"
+    values:
+      lang: ar
+      permalink: /:path/:basename:output_ext
 
 # Set page.category for all posts under respective categories
   -
@@ -114,6 +120,12 @@ defaults:
       lang: cn
       permalink: /cn/:collection/:categories/:year/:month/:day/:title:output_ext
 
+  -
+    scope:
+      path: "_posts/ar"
+    values:
+      lang: ar
+      permalink: /ar/:collection/:categories/:year/:month/:day/:title:output_ext
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

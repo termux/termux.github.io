@@ -1,0 +1,50 @@
+---
+intro: >-
+  ترمكس <strong> هو محاكي طرفية، وبيئة تشغيلية للينكس </strong> يعمل مباشرة على جهازك دون الحاجة إلى 
+  صلاحيات الروت، أو خطوات تثبيت، 
+  كما يتضمن أهم الحزم الأساسية بشكل تلقائي -
+  وتتوفر العديد
+  من الحزم الإضافية عبر مدير الحزم
+
+features:
+  secure:
+    title: آمن.
+    description: >-
+      أتصل بالأجهزة البعيدة (Access remote) عبر ssh من خلال حزمة OpenSSH، وتفاعل مع باقي الحزم المعايرة 
+      (standard packages) على ترمكس، عبر محاكي طرفية رائع ومفتوح المصدر.
+  feature_packed:
+    title: أختر، وأفعل ما يحلو لك.
+    description: >-
+      خذ معك Bash أو ربما تفضل استخدام fish أو Zsh، من خلال nano، ربما Emacs أو Vim،
+      اسحب الرسائل من SMS هاتفك، وأربطها مع خدمات أخرى من خلال curl، استخدم rsync لتحفظ نسخة احتياطية
+      من قائمة جهات الاتصال في هاتفك وتسترجعها في خادم بعيد (remote server).
+  customizable:
+    title: قابل للتخصيص
+    description: >-
+      حمل ما تريده من خلال مدير الحزم APT، ذاته المستخدم في توزيعات ديبيان، وأبونتو
+      ما رأيك بالبدأ في تحميل git ونسخ الملفات إلى هاتفك؟
+  explorable:
+    title: أبحر بخيالك
+    description: >-
+      Have you ever sat on a bus and wondered exactly which arguments
+      tar accepts? Packages available in Termux are the same as those
+      on Mac and Linux - install man pages on your phone and read them
+      in one session while experimenting with them in another.
+  portable:
+    title: Portable - With batteries included.
+    description: >-
+      Can you imagine a more powerful yet elegant pocket calculator
+      than a readline-powered Python console? Up-to-date versions of
+      Perl, Python, Ruby and Node.js are all available.
+  scalable:
+    title: Ready to scale up.
+    description: >-
+      Connect a Bluetooth keyboard and hook up your device to an external
+      display if you need to - Termux supports keyboard shortcuts and
+      has full mouse support.
+  tinkerable:
+    title: Tinkerable.
+    description: >-
+      Develop by compiling Go, Rust, Swift, or C files with Clang and
+      build your own projects with CMake and pkg-config. Both lldb/GDB
+      and strace are available if you get stuck and need to debug.

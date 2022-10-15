@@ -48,3 +48,17 @@ $on-laptop:        800px !default;
   "partials/base",
   "partials/layout"
 ;
+
+// RTL for Arabic
+
+html[lang=ar] {
+  direction: rtl;
+}
+[lang=ar] .site-nav {
+  // fix navbar
+  direction: ltr;
+}
+[lang=ar] .site-footer {
+  // fix footer 
+  direction: ltr;
+}
