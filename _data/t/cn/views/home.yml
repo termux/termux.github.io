@@ -1,6 +1,6 @@
 ---
 intro: >-
-  Termux是一个<strong>适用于 Android 的终端模拟器，其环境类似于 Linux 环境</strong>，
+  Termux是一个<strong>适用于 Android 的终端模拟器，其环境类似于 Linux 环境</strong>。
   无需Root或设置即可使用。
   Termux 会自动进行最小安装
   - 使用 APT 包管理器即可获得其他软件包。
