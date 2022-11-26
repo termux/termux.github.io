@@ -7,9 +7,9 @@ page_ref: /donate.html
 
 如果你想支持 [@termux](https://github.com/termux) 的开发，或者鼓励我们带来更多功能和软件包，并帮助我们支付网站、额外包存储库、镜像的托管费用和测试设备的成本等。
 
-我们目前正在使用Github Actions来构建包并将其上传到由 [FossHost](https://fosshost.org/) 托管的 [存储库](https://packages.termux.dev)。 多亏了这一点，主要的基础设施不会给个人开发人员带来任何成本。
+我们目前正在使用Github Actions来构建包并将其上传到由 [FossHost](https://fosshost.org/) 托管的 [存储库](https://packages.termux.dev)。 多亏了他们，这些基础设施才不会给个人开发人员带来任何成本。
 
-向我们捐款将表达您的感激之情，并帮助支持各种成员和贡献者的工作（如开发或维护）。 即使是少量（一杯咖啡）的金额也非常感谢！通过git 历史记录和存储库统计信息 （[`termux-packages`](https://github.com/termux/termux-packages/graphs/contributors)、[`termux-app`](https://github.com/termux/termux-app/graphs/contributors)）查看所有为软件包和应用程序投入时间和精力的人。 其中许多人是外部贡献者，而不是 [@termux 团队](https://github.com/orgs/termux/people) 的成员，但也应该支持他们。 如果你想支持特定包的维护，你也可以查看`termux-packages`中的 [`CODEOWNERS`](https://github.com/termux/termux-packages/blob/master/CODEOWNERS) 。
+向我们捐款以表达您的感激之情，并帮助支持各种成员和贡献者的工作（如开发或维护）。 即使是少量（一杯咖啡）的金额也非常感谢！通过git 历史记录和存储库统计信息 （[`termux-packages`](https://github.com/termux/termux-packages/graphs/contributors)、[`termux-app`](https://github.com/termux/termux-app/graphs/contributors)）查看所有为软件包和应用程序投入时间和精力的人。 其中许多人是外部贡献者，而不是 [@termux 团队](https://github.com/orgs/termux/people) 的成员，但也应该支持他们。 如果你想支持特定包的维护，你也可以查看`termux-packages`中的 [`CODEOWNERS`](https://github.com/termux/termux-packages/blob/master/CODEOWNERS) 。
 
 
 ### Open Collective
@@ -19,7 +19,7 @@ page_ref: /donate.html
 
 ### Github Sponsors
 
-成为我们的 [Github Sponsor](https://github.com/sponsors) 可以在 https://github.com/sponsors/termux 进行捐赠 ，其财务托管由 [Open Source Collective](https://www.oscollective.org) 完成。 [支持](https://docs.github.com/en/sponsors/sponsoring-open-source-contributors/sponsoring-an-open-source-contributor) 定期自定义每月和一次性捐款。 您可以使用信用卡/借记卡或 PayPal 支付法定货币。
+成为我们的 [Github Sponsor](https://github.com/sponsors) 您可以在 https://github.com/sponsors/termux 进行捐赠 ，其财务托管由 [Open Source Collective](https://www.oscollective.org) 完成。 [支持](https://docs.github.com/en/sponsors/sponsoring-open-source-contributors/sponsoring-an-open-source-contributor) 定期、自定义每月和一次性捐款。 您可以使用信用卡/借记卡或 PayPal 支付法定货币。
 
 
 ### Agnostic Apollo

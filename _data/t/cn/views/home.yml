@@ -22,24 +22,24 @@ features:
     description: >-
       通过 Debian 和 Ubuntu GNU/Linux 
       等从已知的 APT 包管理器系统中安装您所想要的。 
-      为什么不从安装 Git 并同步您的文件开始呢？
+      为什么不从安装 Git 并开始同步您的文件呢？
   explorable:
-    title: 可探索
+    title: 探索性
     description: >-
-      你有没有坐在公共汽车上想知道 tar 到底接受了哪些参数？ 
+      你有没有时候坐在公交车上想要知道 tar 到底接受了哪些参数？ 
       Termux 中可用的软件包与 Mac 和 Linux 上的软件包相同
-      - 在您的手机上安装手册页并在一个会话中阅读它们，
-      同时在另一个会话中进行试验。
+      - 在您的手机上的安装页面并可以在一个会话中阅读它们，
+      还可以同时在另一个会话中进行试验。
   portable:
-    title: 便携式 - 包括电池
+    title: 便携性
     description: >-
       你能想象一个比 readline 驱动的 Python 控制台更强大、更优雅的袖珍计算器吗？
-      Perl、Python、Ruby 和 Node.js 的最新版本均可用。
+      Perl、Python、Ruby 和 Node.js 的最新版本均可使用。
   scalable:
-    title: 准备扩大规模
+    title: 扩展性
     description: >-
-      如果需要，
-      连接蓝牙键盘并将您的设备连接到外部显示器
+      如有需要，
+      你可以连接蓝牙键盘并将您的设备连接至外部显示器
       - Termux 支持键盘快捷键并具有完整的鼠标支持。
   tinkerable:
     title: 可修补
