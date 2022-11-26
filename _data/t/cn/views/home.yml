@@ -14,7 +14,7 @@ features:
   feature_packed:
     title: 功能丰富
     description: >-
-      你可以在在 bash、fish 或 zsh 和 nano、Emacs 或 Vim 之间进行选择。
+      你可以在在 bash、fish 或 zsh 和 nano、Emacs 或 Vim 之间选择。
       通过 Grep 搜索您的短信收件箱。 
       使用 curl 访问 API 并使用 rsync 将联系人列表的备份存储在您的远程服务器上。
   customizable:
