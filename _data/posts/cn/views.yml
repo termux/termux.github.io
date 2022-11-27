@@ -1,9 +1,0 @@
----
-index:
-  apps: 应用
-  general: 常规
-  packages: 包
-  apps_posts: 关于应用的文章
-  general_posts: 常规文章
-  packages_posts: 关于软件包的文章
-  subscribe_to_rss_feed: 订阅RSS源
