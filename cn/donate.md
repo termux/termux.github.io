@@ -9,8 +9,7 @@ page_ref: /donate.html
 
 我们目前正在使用 Github Actions 来构建我们的包，这不会带来任何成本。然而，[主要软件包服务器](https://packages.termux.dev/)由 [Hetzner](https://www.hetzner.com/cloud) 托管，使我们需要使用在 [Open Collective](https://termux.dev/cn/donate#open-collective) 和 [Github Sponsors](https://termux.dev/cn/donate#github-sponsors) 收到的捐款来支付每个月的托管费用。
 
-
-向我们捐款以表达您的感激之情，并帮助支持各种成员和贡献者的工作（如开发或维护）。 即使是少量（一杯咖啡）的金额也非常感谢！通过git 历史记录和存储库统计信息 （[`termux-packages`](https://github.com/termux/termux-packages/graphs/contributors)、[`termux-app`](https://github.com/termux/termux-app/graphs/contributors)）查看所有为软件包和应用程序投入时间和精力的人。 其中许多人是外部贡献者，而不是 [@termux 团队](https://github.com/orgs/termux/people) 的成员，但也应该支持他们。 如果你想支持特定包的维护，你也可以查看`termux-packages`中的 [`CODEOWNERS`](https://github.com/termux/termux-packages/blob/master/CODEOWNERS) 。
+向我们捐款将表达您的感激之情，并帮助支持各种成员和贡献者的工作（如开发或维护）。 即使是少量（一杯咖啡）的金额也非常感谢！通过git 历史记录和存储库统计信息 （[`termux-packages`](https://github.com/termux/termux-packages/graphs/contributors)、[`termux-app`](https://github.com/termux/termux-app/graphs/contributors)）查看所有为软件包和应用程序投入时间和精力的人。 其中许多人是外部贡献者，而不是 [@termux 团队](https://github.com/orgs/termux/people) 的成员，但也应该支持他们。 如果你想支持特定包的维护，你也可以查看`termux-packages`中的 [`CODEOWNERS`](https://github.com/termux/termux-packages/blob/master/CODEOWNERS) 。
 
 
 ### Open Collective
@@ -20,7 +19,7 @@ page_ref: /donate.html
 
 ### Github Sponsors
 
-成为我们的 [Github Sponsor](https://github.com/sponsors) 您可以在 https://github.com/sponsors/termux 进行捐赠 ，其财务托管由 [Open Source Collective](https://www.oscollective.org) 完成。 [支持](https://docs.github.com/en/sponsors/sponsoring-open-source-contributors/sponsoring-an-open-source-contributor) 定期、自定义每月和一次性捐款。 您可以使用信用卡/借记卡或 PayPal 支付法定货币。
+成为我们的 [Github Sponsor](https://github.com/sponsors) 可以在 https://github.com/sponsors/termux 进行捐赠 ，其财务托管由 [Open Source Collective](https://www.oscollective.org) 完成。 [支持](https://docs.github.com/en/sponsors/sponsoring-open-source-contributors/sponsoring-an-open-source-contributor) 定期自定义每月和一次性捐款。 您可以使用信用卡/借记卡或 PayPal 支付法定货币。
 
 
 ### Agnostic Apollo

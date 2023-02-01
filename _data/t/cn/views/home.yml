@@ -2,7 +2,7 @@
 intro: >-
   Termux是一个<strong>适用于 Android 的终端模拟器，其环境类似于 Linux 环境</strong>。
   无需Root或设置即可使用。
-  Termux 会自动安装最小化系统
+  Termux 会自动进行最小安装
   - 使用 APT 包管理器即可获得其他软件包。
 
 features:
@@ -14,7 +14,7 @@ features:
   feature_packed:
     title: 功能丰富
     description: >-
-      你可以在在 bash、fish 或 zsh 和 nano、Emacs 或 Vim 之间选择。
+      你可以在在 bash、fish 或 zsh 和 nano、Emacs 或 Vim 之间进行选择。
       通过 Grep 搜索您的短信收件箱。 
       使用 curl 访问 API 并使用 rsync 将联系人列表的备份存储在您的远程服务器上。
   customizable:
@@ -22,24 +22,24 @@ features:
     description: >-
       通过 Debian 和 Ubuntu GNU/Linux 
       等从已知的 APT 包管理器系统中安装您所想要的。 
-      为什么不从安装 Git 并开始同步您的文件呢？
+      为什么不从安装 Git 并同步您的文件开始呢？
   explorable:
-    title: 探索性
+    title: 可探索
     description: >-
-      你有没有时候坐在公交车上想要知道 tar 到底接受了哪些参数？ 
+      你有没有坐在公共汽车上想知道 tar 到底接受了哪些参数？ 
       Termux 中可用的软件包与 Mac 和 Linux 上的软件包相同
-      - 在您的手机上的安装页面并可以在一个会话中阅读它们，
-      还可以同时在另一个会话中进行试验。
+      - 在您的手机上安装手册页并在一个会话中阅读它们，
+      同时在另一个会话中进行试验。
   portable:
-    title: 便携性
+    title: 便携式 - 包括电池
     description: >-
       你能想象一个比 readline 驱动的 Python 控制台更强大、更优雅的袖珍计算器吗？
-      Perl、Python、Ruby 和 Node.js 的最新版本均可使用。
+      Perl、Python、Ruby 和 Node.js 的最新版本均可用。
   scalable:
-    title: 扩展性
+    title: 准备扩大规模
     description: >-
-      如有需要，
-      你可以连接蓝牙键盘并将您的设备连接至外部显示器
+      如果需要，
+      连接蓝牙键盘并将您的设备连接到外部显示器
       - Termux 支持键盘快捷键并具有完整的鼠标支持。
   tinkerable:
     title: 可修补
