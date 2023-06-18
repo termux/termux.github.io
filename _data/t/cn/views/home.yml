@@ -21,7 +21,7 @@ features:
     title: 可玩性
     description: >-
       通过 Debian 和 Ubuntu GNU/Linux 
-      等从已知的 APT 包管理器系统中安装您所想要的。 
+      等从已知的 APT 包管理器中安装您所想要的。 
       为什么不从安装 Git 并同步您的文件开始呢？
   explorable:
     title: 可探索
