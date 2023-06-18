@@ -1,28 +1,28 @@
 ---
 intro: >-
-  Termux是一个<strong>Android终端模拟器和带有Linux环境的应用程序</strong>
-  无需Root或设置即可直接使用。
-  自动安装最小的基本系统
-  - 使用 APT 包管理器可以获得其他软件包。
+  Termux是一个<strong>适用于 Android 的终端模拟器，其环境类似于 Linux 环境</strong>。
+  无需Root或设置即可使用。
+  Termux 会自动进行最小安装
+  - 使用 APT 包管理器即可获得其他软件包。
 
 features:
   secure:
-    title: 安全
+    title: 安全性
     description: >-
       使用来自 OpenSSH 的 ssh 客户端访问远程服务器。
-      Termux 将标准包与准确的终端仿真结合在一个漂亮的开源解决方案中。
+      Termux 将标准的软件包与仿真终端结合在一个完美的开源解决方案中。
   feature_packed:
     title: 功能丰富
     description: >-
-      在 bash、fish 或 zsh 和 nano、Emacs 或 Vim 之间进行选择。
-      通过 Grep 搜索您的 SMS 收件箱。 
-      使用 curl 访问 API 并使用 rsync 将联系人列表的备份存储在远程服务器上。
+      你可以在 bash、fish 或 zsh 和 nano、Emacs 或 Vim 之间选择。
+      通过 Grep 搜索您的短信收件箱。 
+      使用 curl 访问 API 并使用 rsync 将联系人列表的备份存储在您的远程服务器上。
   customizable:
-    title: 可定制
+    title: 可玩性
     description: >-
       通过 Debian 和 Ubuntu GNU/Linux 
-      等已知的 APT 包管理系统安装您想要的。 
-      为什么不从安装 Git 和同步您的点文件开始呢？
+      等从已知的 APT 包管理器中安装您所想要的。 
+      为什么不从安装 Git 并同步您的文件开始呢？
   explorable:
     title: 可探索
     description: >-
