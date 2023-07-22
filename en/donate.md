@@ -39,7 +39,7 @@ Become our [github sponsor](https://github.com/sponsors) at https://github.com/s
 
 ### Yaksh Bariya
 
-[@thunder-coding](https://github.com/thunder-coding) maintains `nodejs`, and often updates critical dependencies in main repo. Mostly packaging work and other chore tasks. Visit [Yaksh Bariya's website](https://codingthunder.me/sponsor) for more information.
+[@thunder-coding](https://github.com/thunder-coding) maintains `nodejs`, and often updates critical dependencies in main repo. Mostly packaging work and other chore tasks. Visit [Yaksh Bariya's website](https://thunder-coding.github.io/sponsor/) for more information.
 
 
 ### Max Ivan

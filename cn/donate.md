@@ -39,7 +39,7 @@ page_ref: /donate.html
 
 ### Yaksh Bariya
 
-[@thunder-coding](https://github.com/thunder-coding) 维护 `nodejs`包， 并且经常更新主仓库中的关键依赖项， 主要是打包工作和其他家务活。查看 [Yaksh Bariya的个人网站](https://codingthunder.me/sponsor) 了解更多信息。
+[@thunder-coding](https://github.com/thunder-coding) 维护 `nodejs`包， 并且经常更新主仓库中的关键依赖项， 主要是打包工作和其他家务活。查看 [Yaksh Bariya的个人网站](https://thunder-coding.github.io/sponsor/) 了解更多信息。
 
 
 ### Max Ivan
