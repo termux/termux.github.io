@@ -11,7 +11,7 @@ jobs:
     steps:
     - name: Trigger termux.com sync
       if: github.repository == 'termux/termux.github.io'
-      uses: actions/github-script@v6
+      uses: actions/github-script@v7
       with:
         github-token: ${{ secrets.TRIGGER_TERMUX_COM_SYNC_TOKEN }}
         script: |
