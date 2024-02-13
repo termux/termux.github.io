@@ -34,7 +34,7 @@ page_ref: /donate.html
 
 ### Landfillbaby
 
-[@landfillbaby](https://github.com/landfillbaby) 为所有存储库做出贡献，但她主要关注软件包的更新。通过 [Liberapay](https://liberapay.com/landfillbaby) (首选),  [PayPal.Me](https://paypal.me/landfillbaby) ，或 [Ko-fi](https://ko-fi.com/landfillbaby) 进行捐赠。
+[@landfillbaby](https://github.com/landfillbaby) 为所有存储库做出贡献，但她主要关注软件包的更新。通过 [Ko-fi](https://ko-fi.com/landfillbaby)，[Liberapay](https://liberapay.com/landfillbaby)，或 [PayPal.Me](https://paypal.me/landfillbaby) 进行捐赠。
 
 
 ### Yaksh Bariya

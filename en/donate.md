@@ -34,7 +34,7 @@ Become our [github sponsor](https://github.com/sponsors) at https://github.com/s
 
 ### Landfillbaby
 
-[@landfillbaby](https://github.com/landfillbaby) makes contributions to all the repositories, but mostly concerns herself with package updates. Donate through [Liberapay](https://liberapay.com/landfillbaby) (preferred), [PayPal.Me](https://paypal.me/landfillbaby), or [Ko-fi](https://ko-fi.com/landfillbaby).
+[@landfillbaby](https://github.com/landfillbaby) makes contributions to all the repositories, but she mostly focuses on package updates. Donate through [Ko-fi](https://ko-fi.com/landfillbaby), [Liberapay](https://liberapay.com/landfillbaby), or [PayPal.Me](https://paypal.me/landfillbaby).
 
 
 ### Yaksh Bariya
