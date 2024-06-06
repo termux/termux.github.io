@@ -37,6 +37,15 @@ Become our [github sponsor](https://github.com/sponsors) at https://github.com/s
 [@landfillbaby](https://github.com/landfillbaby) makes contributions to all the repositories, but she mostly focuses on package updates. Donate through [Ko-fi](https://ko-fi.com/landfillbaby), [Liberapay](https://liberapay.com/landfillbaby), or [PayPal.Me](https://paypal.me/landfillbaby).
 
 
+### Sylirre
+
+[@sylirre](https://github.com/sylirre) makes contributions to all repositories and is the author of [PRoot-Distro](https://github.com/termux/proot-distro) utility. Donate cryptocurrency to:
+
+* ETH: `0x76c7f1FC3C7396396fBD7e8cBDc2fc741FFa4aFa`
+* LTC: `ltc1q2yne7e2p5ypf2ky0j3tg3vd6yktd5u57rmlly9`
+* TRX: `TUP941DmHfrBNxvbcYkThx9hHrskU7FyTa`
+
+
 ### Yaksh Bariya
 
 [@thunder-coding](https://github.com/thunder-coding) maintains `nodejs`, and often updates critical dependencies in main repo. Mostly packaging work and other chore tasks. Visit [Yaksh Bariya's website](https://thunder-coding.github.io/sponsor/) for more information.

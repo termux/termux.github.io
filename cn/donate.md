@@ -37,6 +37,15 @@ page_ref: /donate.html
 [@landfillbaby](https://github.com/landfillbaby) 为所有存储库做出贡献，但她主要关注软件包的更新。通过 [Ko-fi](https://ko-fi.com/landfillbaby)，[Liberapay](https://liberapay.com/landfillbaby)，或 [PayPal.Me](https://paypal.me/landfillbaby) 进行捐赠。
 
 
+### Sylirre
+
+[@sylirre](https://github.com/sylirre) 为所有存储库做出贡献并是 [PRoot-Distro](https://github.com/termux/proot-distro) 实用程序的作者。 捐赠加密货币：
+
+* ETH: `0x76c7f1FC3C7396396fBD7e8cBDc2fc741FFa4aFa`
+* LTC: `ltc1q2yne7e2p5ypf2ky0j3tg3vd6yktd5u57rmlly9`
+* TRX: `TUP941DmHfrBNxvbcYkThx9hHrskU7FyTa`
+
+
 ### Yaksh Bariya
 
 [@thunder-coding](https://github.com/thunder-coding) 维护 `nodejs`包， 并且经常更新主仓库中的关键依赖项， 主要是打包工作和其他家务活。查看 [Yaksh Bariya的个人网站](https://thunder-coding.github.io/sponsor/) 了解更多信息。
