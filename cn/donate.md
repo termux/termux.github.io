@@ -58,7 +58,7 @@ page_ref: /donate.html
 
 ### Fornwall
 
-[@fornwall](https://github.com/fornwall) 是 [@termux](https://github.com/termux) 项目的创建者，并且多年来一直是唯一的 termux 开发人员，并创建了应用程序并移植了许多包，但目前处于非活动状态。 你可以通过 https://paypal.me/fornwall, https://www.patreon.com/termux 来捐赠，或者购买 (现在[不推荐使用](https://github.com/termux/termux-app#google-play-store-deprecated)并且基本上不可用) 在Google play上的termux插件 ([Termux:API](https://play.google.com/store/apps/details?id=com.termux.api)、[Termux:Float](https://play.google.com/store/apps/details?id=com.termux.window)、 [Termux:Widget](https://play.google.com/store/apps/details?id=com.termux.widget)、 [Termux:Styling](https://play.google.com/store/apps/details?id=com.termux.styling)、 [Termux:Tasker](https://play.google.com/store/apps/details?id=com.termux.tasker)、 [Termux:Boot](https://play.google.com/store/apps/details?id=com.termux.boot))。 *请注意，任何捐赠给 [termux 的 patreon](https://www.patreon.com/termux) 由fornwall控制的帐户不与其他成员共享以支持* **当前** *termux 的开发和费用，所以考虑通过 Open Collective instead. However捐赠；如果你想支持fornwall过去的工作，那么你当然可以给他捐款。*
+[@fornwall](https://github.com/fornwall) 是 [@termux](https://github.com/termux) 的创始人，这么多年来一直都是 Termux 的唯一的开发者，创建了应用程序并且移植了很多软件包，他现在在 [Google Play Store](https://github.com/termux/termux-app#google-play-store-experimental-branch) 上独立维护一个实验性的 [Termux 应用程序分叉](https://github.com/termux-play-store)，同时也在维护 Termux 软件包。你可以通过 https://paypal.me/fornwall 或者 https://www.patreon.com/fornwall 进行捐赠。
 ##
 
 *[@termux](https://github.com/termux) 维护者的注意事项:请随时在 [page source(s)](@SITE__URL@/blob/master/@PAGE__LANG@/donate.md) (所有语言)添加/更新/删除您的捐赠链接。*
