@@ -34,4 +34,4 @@ gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
 # kramdown v1, comment out this line.
 gem "kramdown-parser-gfm"
 
-gem "webrick", "~> 1.7"
+gem "webrick", "~> 1.8"
