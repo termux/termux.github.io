@@ -8,3 +8,7 @@ en:
 cn:
   name_english: "Chinese"
   name_native: "中文"
+
+ar:
+  name_english: "Arabic"
+  name_native: "العربية"
