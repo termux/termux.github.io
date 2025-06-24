@@ -44,6 +44,14 @@
             <a class="page-link" href="/{{- site.lang -}}/donate">{%- include t.html key="views.navigation.donate" lang=site.lang -%}</a>
           {%- endif -%}
 
+          {%- assign path = page.lang | append: "/security.md" -%}
+          {%- assign file_exists = site.html_pages | where: "path", path -%}
+          {%- if file_exists.size != 0 -%}
+            <a class="page-link" href="/{{- page.lang -}}/security">{%- include t.html key="views.navigation.security" -%}</a>
+          {%- else -%}
+            <a class="page-link" href="/{{- site.lang -}}/security">{%- include t.html key="views.navigation.security" lang=site.lang -%}</a>
+          {%- endif -%}
+
           {%- assign path = page.lang | append: "/privacy-policy.md" -%}
           {%- assign file_exists = site.html_pages | where: "path", path -%}
           {%- if file_exists.size != 0 -%}
