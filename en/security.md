@@ -13,8 +13,8 @@ The Termux team takes all security vulnerabilities seriously and we encourage ex
 
 ## Timeline and Disclosure Policy
 
-1. Once the report sent to us by an external party has been received, it will be triaged by our team to see if it is valid and what its impact is. It will normally be acknowledged within `3` business days if its valid and then will be assigned to a maintainer who will handle the communication with the reporter to coordinate the deployment of fixes and the vulnerability disclosure.
-2. We will normally deploy fixes for the security vulnerability within `90` days. However, if the vulnerability is being actively exploited, then fixes will be tried to be deployed within `7` days.
+1. Once the report sent to us by an external party has been received, it will be triaged by our team to see if it is valid and what its impact is. It will normally be acknowledged within `3` business days if valid and will then be assigned to a maintainer who will handle the communication with the reporter and coordinate the deployment of fixes and the vulnerability disclosure.
+2. We will normally deploy fixes for the security vulnerability within `90` days. However, if the vulnerability is being actively exploited, then we aim to deploy fixes within `7` days.
 3. After the fixes have been deployed and available to users, the vulnerability report will be disclosed publicly after `30` days on [GitHub security advisories](https://github.com/advisories) and/or on our <a href="/{{- page.lang -}}/posts/index.html">Termux site posts</a>.
 
 &nbsp;
@@ -25,9 +25,9 @@ The Termux team takes all security vulnerabilities seriously and we encourage ex
 
 The first entity who reports the vulnerability to us, whether they are in our own Termux team or are an external party, only they will be acknowledged and/or rewarded, depending on if they want to be acknowledged and under what name and link they want to be acknowledged with.
 
-If the vulnerability exists in versions older than the latest version publicly deployed, or before the report was submitted, the vulnerability had already been fixed in the public/private `git` repository or was already known to the maintainers but not yet fixed, then acknowledgements may not be given.
+If the vulnerability exists only in older versions, or if the vulnerability had already been fixed in the public/private `git` repository before the report was submitted, or if the vulnerability has already been reported or discovered by the maintainers but not yet fixed, then acknowledgements may not be given.
 
-As for rewards, we currently do not have a rewards program, as all Termux services are primarily provided for free (beer) to our users and our <a href="/{{- page.lang -}}/donate">Donations</a> are rather limited and don't even cover the development costs itself of our entire team. However, for severe vulnerabilities, we may make an exception and pay out a token reward from our [Open Collective](https://opencollective.com/termux), depending on our budgets.
+As for rewards, we currently do not have a rewards program, as all Termux services are primarily provided for free (beer) to our users and our <a href="/{{- page.lang -}}/donate">Donations</a> are rather limited and do not even cover the development costs itself of our entire team. However, for severe vulnerabilities, we may make an exception and pay out a token reward from our [Open Collective](https://opencollective.com/termux), depending on our budget.
 
 The security impact (and any potential reward) is judged based on the actual reported impact of the vulnerability, and not on a potential impact of the vulnerability. Vulnerabilities without a valid attack scenario are not accepted.
 
@@ -67,11 +67,11 @@ Security vulnerabilities can be reported in two ways:
 
     Note that normal bugs are not security vulnerabilities, and must not be reported to GitHub Security Advisory and instead should be reported as an `Issue` to its respective repository. Sending repeated non-security bugs to GitHub Security Advisory or sending spam to it will result in a ban.
 
-2. **Emails** can also be sent to one or more maintainers that (seem to) maintain the affected component, as listed after the repository links in sections below, or as per `git` history or `CODEOWNERS` file. Emails should preferably be [`gpg` encrypted](https://www.gnupg.org/gph/en/manual/x110.html) to maintain confidentiality from people who may have access to the intermediate mail servers. You can find the public `gpg` keys of our common maintainers in the [`termux-keyring`  package](https://github.com/termux/termux-packages/tree/master/packages/termux-keyring) or at the `https://github.com/<username>.gpg` URL. If the `gpg` key is not available for any maintainer who is responsible for the affected component, you may send an unencrypted report, or preferably email an encrypted report to [@agnostic-apollo](https://github.com/agnostic-apollo) ([agnostic-apollo@termux.dev](mailto:agnostic-apollo@termux.dev)) or [@Grimler91](https://github.com/Grimler91) ([grimler@termux.dev](mailto:grimler@termux.dev)), whose keys are available.
+2. **Emails** can also be sent to one or more maintainers that (seem to) maintain the affected component, as listed after the repository links in sections below, or as per `git` history or `CODEOWNERS` file. Emails should preferably be [`gpg` encrypted](https://www.gnupg.org/gph/en/manual/x110.html) to maintain confidentiality from people who may have access to the intermediate mail servers. You can find the public `gpg` keys of our common maintainers in the [`termux-keyring` package](https://github.com/termux/termux-packages/tree/master/packages/termux-keyring) or at the `https://github.com/<username>.gpg` URL. If the `gpg` key is not available for any maintainer who is responsible for the affected component, you may send an unencrypted report, or preferably email an encrypted report to [@agnostic-apollo](https://github.com/agnostic-apollo) ([agnostic-apollo@termux.dev](mailto:agnostic-apollo@termux.dev)) or [@Grimler91](https://github.com/Grimler91) ([grimler@termux.dev](mailto:grimler@termux.dev)), whose keys are available.
 
 &nbsp;
 
-The following lists the most popular and critical Termux repositories and their maintainers. You may email the respective maintainers if you want to report a vulnerability and can't use GitHub security advisories, or if private questions/support/discussion is required. For the repositories below that are maintained by the "Termux team", either email to the maintainer that maintains the affected component as per `git` history or `CODEOWNERS` file, or email to [@agnostic-apollo](https://github.com/agnostic-apollo) or [@Grimler91](https://github.com/Grimler91).
+The following lists the most popular and critical Termux repositories and their maintainers. You may email the respective maintainers if you want to report a vulnerability and cannot use GitHub security advisories, or if private questions/support/discussion is required. For the repositories below that are maintained by the "Termux team", either email to the maintainer that maintains the affected component as per `git` history or `CODEOWNERS` file, or email to [@agnostic-apollo](https://github.com/agnostic-apollo) or [@Grimler91](https://github.com/Grimler91).
 
 ### Termux Apps
 
