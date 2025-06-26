@@ -17,6 +17,8 @@ The Termux team takes all security vulnerabilities seriously and we encourage ex
 2. We will normally deploy fixes for the security vulnerability within `90` days. However, if the vulnerability is being actively exploited, then we aim to deploy fixes within `7` days.
 3. After the fixes have been deployed and available to users, the vulnerability report will be disclosed publicly after `30` days on [GitHub security advisories](https://github.com/advisories) and/or on our <a href="/{{- page.lang -}}/posts/security.html">Termux site security posts</a>.
 
+Check the <a href="/{{- page.lang -}}/security-incident-response-checklist.html">Termux Security Incident Response Checklist</a> for more info on the actions that will taken when a security vulnerability is reported.
+
 &nbsp;
 
 
