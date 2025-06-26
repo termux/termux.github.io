@@ -6,7 +6,7 @@ page_ref: /posts/apps/2022/02/25/termux-tasker-v0.6.0-release.html
 
 The `Termux:Tasker` `v0.6.0` is out.
 
-**It is highly recommended that you update to `v0.5.0` or higher for fixes for vulnerabilities disclosed in the [Termux Apps Vulnerability Disclosures](https://termux.github.io/general/2022/02/15/termux-apps-vulnerability-disclosures.html) post.**
+**It is highly recommended that you update to `v0.5.0` or higher for fixes for vulnerabilities disclosed in the [Termux Apps Vulnerability Disclosures](https://termux.github.io/en/posts/security/2022/02/15/termux-apps-vulnerability-disclosures.html) post.**
 ##
 
 

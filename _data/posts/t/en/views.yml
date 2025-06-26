@@ -3,7 +3,9 @@ index:
   apps: Apps
   general: General
   packages: Packages
+  security: Security
   apps_posts: Apps Posts
   general_posts: General Posts
   packages_posts: Packages Posts
+  security_posts: Security Posts
   subscribe_to_rss_feed: Subscribe to RSS feed
