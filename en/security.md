@@ -15,7 +15,7 @@ The Termux team takes all security vulnerabilities seriously and we encourage ex
 
 1. Once the report sent to us by an external party has been received, it will be triaged by our team to see if it is valid and what its impact is. It will normally be acknowledged within `3` business days if valid and will then be assigned to a maintainer who will handle the communication with the reporter and coordinate the deployment of fixes and the vulnerability disclosure.
 2. We will normally deploy fixes for the security vulnerability within `90` days. However, if the vulnerability is being actively exploited, then we aim to deploy fixes within `7` days.
-3. After the fixes have been deployed and available to users, the vulnerability report will be disclosed publicly after `30` days on [GitHub security advisories](https://github.com/advisories) and/or on our <a href="/{{- page.lang -}}/posts/index.html">Termux site posts</a>.
+3. After the fixes have been deployed and available to users, the vulnerability report will be disclosed publicly after `30` days on [GitHub security advisories](https://github.com/advisories) and/or on our <a href="/{{- page.lang -}}/posts/security.html">Termux site security posts</a>.
 
 &nbsp;
 

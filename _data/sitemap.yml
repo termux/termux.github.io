@@ -2,4 +2,6 @@ excludes:
   - /redirects.json
   - /feed.xml
   - /general/2022/02/15/termux-apps-vulnerability-disclosures.html
+  - /en/posts/general/2022/02/15/termux-apps-vulnerability-disclosures.html
+  - /cn/posts/general/2022/02/15/termux-apps-vulnerability-disclosures.html
   - /apps/2022/02/25/termux-tasker-v0.6.0-release.html

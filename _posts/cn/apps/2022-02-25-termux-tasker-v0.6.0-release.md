@@ -5,7 +5,7 @@ page_ref: /posts/apps/2022/02/25/termux-tasker-v0.6.0-release.html
 
 `Termux:Tasker` `v0.6.0` 版本已经发布。
 
-**强烈建议您更新到 `v0.5.0` 或更高版本以修复 [Termux 应用程序漏洞披露](https://termux.github.io/general/2022/02/15/termux-apps-vulnerability-disclosures.html) 。**
+**强烈建议您更新到 `v0.5.0` 或更高版本以修复 [Termux 应用程序漏洞披露](https://termux.github.io/cn/posts/security/2022/02/15/termux-apps-vulnerability-disclosures.html) 。**
 ##
 
 

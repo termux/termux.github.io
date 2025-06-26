@@ -48,6 +48,7 @@ collections:
 feed:
   categories:
     - general
+    - security
 
 show_excerpts: true # set to true to show excerpts on posts
 
@@ -101,6 +102,12 @@ defaults:
       path: "_posts/*/packages"
     values:
       category: packages
+
+  -
+    scope:
+      path: "_posts/*/security"
+    values:
+      category: security
 
 
 # Set page.lang for all posts files under respective languages and permalink with /en/:collection prefix
