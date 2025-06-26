@@ -3,7 +3,7 @@
 
     {%- assign category_posts = site.categories[page.category_name] | where: "lang", page.lang -%}
     {%- assign category_translate_key = "views.index." | append: page.category_name | append: "_posts" -%}
-    <h1 class="page-heading">{%- include t.html root="posts" key=category_translate_key -%} ({{- category_posts.size | default: "0" -}})</h1>
+    <h1 class="page-heading">{%- include t.html root="posts" key=category_translate_key %} ({{- category_posts.size | default: "0" -}})</h1>
 
     {%- if category_posts.size > 0 -%}
       <ul class="post-list">

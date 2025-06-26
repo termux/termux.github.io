@@ -23,7 +23,7 @@
           {%- if file_exists.size != 0 -%}
             <a class="page-link" href="/{{- page.lang -}}/docs/index.html">{%- include t.html key="views.navigation.docs" -%}</a>
           {%- else -%}
-            <a class="page-link" href="/{{- site.lang -}}/docs/index.html">{%- include t.html key="views.navigation.docs" lang=site.lang -%}</a>
+            <a class="page-link" href="/{{- site.lang -}}/docs/index.html">{%- include t.html key="views.navigation.docs" -%}</a>
           {%- endif -%}
 
           {%- assign path = page.lang | append: "/posts/index.md" -%}
@@ -31,7 +31,7 @@
           {%- if file_exists.size != 0 -%}
             <a class="page-link" href="/{{- page.lang -}}/posts/index.html">{%- include t.html key="views.navigation.posts" -%}</a>
           {%- else -%}
-            <a class="page-link" href="/{{- site.lang -}}/posts/index.html">{%- include t.html key="views.navigation.posts" lang=site.lang -%}</a>
+            <a class="page-link" href="/{{- site.lang -}}/posts/index.html">{%- include t.html key="views.navigation.posts" -%}</a>
           {%- endif -%}
 
           <a class="page-link" href="https://packages.termux.dev">{%- include t.html key="views.navigation.packages" -%}</a>
@@ -41,7 +41,7 @@
           {%- if file_exists.size != 0 -%}
             <a class="page-link" href="/{{- page.lang -}}/donate">{%- include t.html key="views.navigation.donate" -%}</a>
           {%- else -%}
-            <a class="page-link" href="/{{- site.lang -}}/donate">{%- include t.html key="views.navigation.donate" lang=site.lang -%}</a>
+            <a class="page-link" href="/{{- site.lang -}}/donate">{%- include t.html key="views.navigation.donate" -%}</a>
           {%- endif -%}
 
           {%- assign path = page.lang | append: "/security.md" -%}
@@ -49,7 +49,7 @@
           {%- if file_exists.size != 0 -%}
             <a class="page-link" href="/{{- page.lang -}}/security">{%- include t.html key="views.navigation.security" -%}</a>
           {%- else -%}
-            <a class="page-link" href="/{{- site.lang -}}/security">{%- include t.html key="views.navigation.security" lang=site.lang -%}</a>
+            <a class="page-link" href="/{{- site.lang -}}/security">{%- include t.html key="views.navigation.security" -%}</a>
           {%- endif -%}
 
           {%- assign path = page.lang | append: "/privacy-policy.md" -%}
@@ -57,7 +57,7 @@
           {%- if file_exists.size != 0 -%}
             <a class="page-link" href="/{{- page.lang -}}/privacy-policy">{%- include t.html key="views.navigation.privacy_policy" -%}</a>
           {%- else -%}
-            <a class="page-link" href="/{{- site.lang -}}/privacy-policy">{%- include t.html key="views.navigation.privacy_policy" lang=site.lang -%}</a>
+            <a class="page-link" href="/{{- site.lang -}}/privacy-policy">{%- include t.html key="views.navigation.privacy_policy" -%}</a>
           {%- endif -%}
 
           {%- if page.page_ref and page.lang -%}
