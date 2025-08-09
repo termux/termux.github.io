@@ -10,10 +10,10 @@ This is the source repository for [termux.github.io](https://termux.github.io) a
 Install dependencies as explained at [Using Jekyll with Pages](https://help.github.com/articles/using-jekyll-with-pages/), then run
 
 ```
-bundle exec jekyll serve
+bundle exec jekyll serve --future
 ```
 
-to start a local server at http://localhost:4000.
+to start a local server at http://localhost:4000. `--future` is needed to show posts with dates in the future.
 
 If [`_config.yml`] file was updated, then stop server with `ctrl + c` and start it again for changes to take effect.
 ##
