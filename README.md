@@ -7,7 +7,13 @@ This is the source repository for [termux.github.io](https://termux.github.io) a
 
 ## Run locally
 
-Install dependencies as explained at [Using Jekyll with Pages](https://help.github.com/articles/using-jekyll-with-pages/), then run
+Get the git submodules with:
+
+```
+git submodule update --init
+```
+
+And then install dependencies as explained at [Using Jekyll with Pages](https://help.github.com/articles/using-jekyll-with-pages/), and finally run
 
 ```
 bundle exec jekyll serve --future
