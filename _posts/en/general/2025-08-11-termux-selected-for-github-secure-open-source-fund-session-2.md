@@ -3,7 +3,7 @@ title:  "Termux Selected For GitHub Secure Open Source Fund Session 2"
 page_ref: /posts/general/2025/08/11/termux-selected-for-github-secure-open-source-fund-session-2.html
 ---
 
-During June 2025 Termux team members [Agnostic Apollo](https://github.com/agnostic-apollo) and [Henrik Grimler](https://github.com/Grimler91) participated in a program by the [GitHub Secure Open Source Fund](https://resources.github.com/github-secure-open-source-fund) Session 2, together with maintainers from `~50` other open source projects. The program has been one of GitHub ways to work towards increasing security and security awareness in open source projects. You can read GitHub's announcement about the program at https://github.blog/open-source/maintainers/securing-the-supply-chain-at-scale-starting-with-71-important-open-source-projects.
+During June 2025 Termux team members [Agnostic Apollo](https://github.com/agnostic-apollo) and [Henrik Grimler](https://github.com/Grimler91) participated in the Session 2 of the [GitHub Secure Open Source Fund](https://resources.github.com/github-secure-open-source-fund) program, together with maintainers from `~50` other open source projects. The program has been one of GitHub ways to work towards increasing security and security awareness in open source projects. You can read GitHub's announcement about the program at https://github.blog/open-source/maintainers/securing-the-supply-chain-at-scale-starting-with-71-important-open-source-projects.
 
 In this post we will describe what we learnt, did and plan to do.
 
