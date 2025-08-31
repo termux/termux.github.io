@@ -41,9 +41,7 @@ page_ref: /donate.html
 
 [@sylirre](https://github.com/sylirre) 为所有存储库做出贡献并是 [PRoot-Distro](https://github.com/termux/proot-distro) 实用程序的作者。 捐赠加密货币：
 
-* ETH: `0x76c7f1FC3C7396396fBD7e8cBDc2fc741FFa4aFa`
-* LTC: `ltc1q2yne7e2p5ypf2ky0j3tg3vd6yktd5u57rmlly9`
-* TRX: `TUP941DmHfrBNxvbcYkThx9hHrskU7FyTa`
+* Tron: `TEJiwRMMGV1JXvRYDRVJ1qw7kFgskEk3sJ`
 
 
 ### Yaksh Bariya

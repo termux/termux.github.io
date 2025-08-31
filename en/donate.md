@@ -41,9 +41,7 @@ Become our [github sponsor](https://github.com/sponsors) at https://github.com/s
 
 [@sylirre](https://github.com/sylirre) makes contributions to all repositories and is the author of [PRoot-Distro](https://github.com/termux/proot-distro) utility. Donate cryptocurrency to:
 
-* ETH: `0x76c7f1FC3C7396396fBD7e8cBDc2fc741FFa4aFa`
-* LTC: `ltc1q2yne7e2p5ypf2ky0j3tg3vd6yktd5u57rmlly9`
-* TRX: `TUP941DmHfrBNxvbcYkThx9hHrskU7FyTa`
+* Tron: `TEJiwRMMGV1JXvRYDRVJ1qw7kFgskEk3sJ`
 
 
 ### Yaksh Bariya
