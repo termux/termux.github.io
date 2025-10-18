@@ -75,7 +75,7 @@ You can check the release at github [here](https://github.com/termux/termux-task
 
 - Fix issue where log level was not being read from file, which has been fixed in `TermuxTaskerAppSharedPreferences` in upstream. ([`63e76458`](https://github.com/termux/termux-tasker/commit/63e76458))  
 
-- Previously working directory would only be created automatically if it was under `TermuxConstants.TERMUX_HOME_DIR_PATH` but now it will be created even if its under `TermuxConstants.TERMUX_FILES_DIR_PATH`. ([`63e76458`](https://github.com/termux/termux-tasker/commit/63e76458))  
+- Previously working directory would only be created automatically if it was under `TermuxConstants.TERMUX_HOME_DIR_PATH` but now it will be created even if it's under `TermuxConstants.TERMUX_FILES_DIR_PATH`. ([`63e76458`](https://github.com/termux/termux-tasker/commit/63e76458))  
 
 - Use `ExecutionCommand` class to handle intent extras in `FireReceiver` since they are consistent with that of `TermuxService` `ACTION_SERVICE_EXECUTE` intent. ([`63e76458`](https://github.com/termux/termux-tasker/commit/63e76458))  
 

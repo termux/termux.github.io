@@ -49,7 +49,7 @@ A good quality report has all the relevant details for the security vulnerabilit
 - An analysis and demonstration of the impact of the vulnerability.
 
 Additionally:
-- If you have coding experience and want to help fix the vulnerability, then a proposed patch can be sent as well and it will be merged if its the ideal solution.
+- If you have coding experience and want to help fix the vulnerability, then a proposed patch can be sent as well and it will be merged if it's the ideal solution.
 - We also expect the reporter to be responsive when they are asked questions, and also accurately answer any queries about the vulnerability.
 - If you are using a fork of Termux, then you should ideally first verify that the issue is reproducible in the Termux releases we provide before reporting to us. This can also help verify whether the issue exists because of changes in the fork or its config.
 - See also [How to ask, report and request](https://github.com/termux/termux-community/blob/site/site/pages/en/rules/how-to-ask-report-and-request.md) for more info on what to normally include when reporting bugs to maintainers.
