@@ -51,12 +51,17 @@ Become our [github sponsor](https://github.com/sponsors) at https://github.com/s
 
 ### Max Ivan
 
-[@maxython](https://github.com/maxython) supports termux `pacman` package manager and its packages. Check [maxython.pw](https://maxython.pw) for how to donate.
+[@maxython](https://github.com/maxython) maintains the `pacman` package manager and its packages, and also `glibc` packages. Donate through [Ko-fi](https://ko-fi.com/maxython).
 
 
 ### Fornwall
 
 [@fornwall](https://github.com/fornwall) is the creator of the [@termux](https://github.com/termux) project and was for several years the sole Termux developer and created the apps and ported many packages. He now independently maintains an experimental fork of Termux app on [Google Play Store](https://github.com/termux/termux-app#google-play-store-experimental-branch) from https://github.com/termux-play-store, and also maintains Termux packages. You can donate through https://paypal.me/fornwall or https://www.patreon.com/fornwall.
+
+
+### Termux Pacman
+
+The `pacman` packages in Termux are distributed from the third party [@termux-pacman](https://github.com/termux-pacman) GitHub organization from its own packages repositories. To support them, check their donation info on their site [here](https://termux-pacman.dev/donate).
 ##
 
 *Note for [@termux](https://github.com/termux) maintainers: Feel free to add/update/delete your donation links on [page source(s)](@SITE__URL@/blob/master/@PAGE__LANG@/donate.md) (of all languages).*
