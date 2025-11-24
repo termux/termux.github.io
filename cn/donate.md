@@ -51,12 +51,18 @@ page_ref: /donate.html
 
 ### Max Ivan
 
-[@maxython](https://github.com/maxython) 让 termux支持并维护 `pacman`包管理器和软件包， 查看 [maxython.pw](https://maxython.pw) 了解如何捐赠。
+[@maxython](https://github.com/maxython) 维护 `pacman`包管理器，软件包以及 `glibc` 相关的包。 通过 [Ko-fi](https://ko-fi.com/maxython) 进行捐赠。
 
 
 ### Fornwall
 
 [@fornwall](https://github.com/fornwall) 是 [@termux](https://github.com/termux) 的创始人，这么多年来一直都是 Termux 的唯一的开发者，创建了应用程序并且移植了很多软件包，他现在在 [Google Play Store](https://github.com/termux/termux-app#google-play-store-experimental-branch) 上独立维护一个实验性的 [Termux 应用程序分叉](https://github.com/termux-play-store)，同时也在维护 Termux 软件包。你可以通过 https://paypal.me/fornwall 或者 https://www.patreon.com/fornwall 进行捐赠。
+
+
+### Termux Pacman
+
+Termux 中的 `pacman` 包是从 [@termux-pacman](https://github.com/termux-pacman) 这个第三方 Github 组织的软件包仓库分发的。如需支持它们， 请查看它们在网站上发布的[捐赠信息](https://termux-pacman.dev/donate)。
+
 ##
 
 *[@termux](https://github.com/termux) 维护者的注意事项:请随时在 [page source(s)](@SITE__URL@/blob/master/@PAGE__LANG@/donate.md) (所有语言)添加/更新/删除您的捐赠链接。*
