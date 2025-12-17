@@ -7,7 +7,7 @@ on:
 
 jobs:
   trigger-termux-com-sync:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-slim
     steps:
     - name: Trigger termux.com sync
       if: github.repository == 'termux/termux.github.io'
