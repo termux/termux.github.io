@@ -2,5 +2,5 @@
 layout: redirect
 sitemap: false
 permalink: /community
-redirect_to: https://wiki.termux.com/wiki/Community
+redirect_to: https://wiki.termux.dev/wiki/Community
 ---

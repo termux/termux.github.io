@@ -1,5 +1,5 @@
 ---
 layout: redirect
 sitemap: false
-redirect_to: https://wiki.termux.com/wiki/Community
+redirect_to: https://wiki.termux.dev/wiki/Community
 ---
