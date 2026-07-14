@@ -7,6 +7,7 @@ on:
 
 jobs:
   trigger-termux-com-sync:
+    if: false # Disable termux.com repo sync as termux.com site is currently being redirected to playstore site.
     runs-on: ubuntu-slim
     steps:
     - name: Trigger termux.com sync
